@@ -1,0 +1,19 @@
+PODS:
+  - Hoko (2.0.3)
+
+DEPENDENCIES:
+  - Hoko (from `https://github.com/hokolinks/hoko-ios`)
+
+EXTERNAL SOURCES:
+  Hoko:
+    :git: https://github.com/hokolinks/hoko-ios
+
+CHECKOUT OPTIONS:
+  Hoko:
+    :commit: fe65627abe3abe881d9a41bec2c5ad7f4dafee11
+    :git: https://github.com/hokolinks/hoko-ios
+
+SPEC CHECKSUMS:
+  Hoko: bc2e423149642970a51192eabdcf91513ecde762
+
+COCOAPODS: 0.37.2

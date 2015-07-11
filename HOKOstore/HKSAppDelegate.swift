@@ -38,7 +38,7 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
                 let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
                 vc.product = product
                 
-                if let coupon = deeplink.metadata?["coupon"], let discount = Float(deeplink.metadata?["value"]  as! String) {
+                if let coupon = deeplink.metadata?["coupon"], discount = Float(deeplink.metadata?["value"]  as! String) {
                     let defaults = NSUserDefaults()
                     defaults.setFloat(discount, forKey: "product: \(product.id)")
                     

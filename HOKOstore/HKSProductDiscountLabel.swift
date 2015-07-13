@@ -16,8 +16,9 @@ class HKSProductDiscountLabel: UILabel {
             
             let discountPriceString = "$\(price - disc)"
             let basePriceString = "$\(price)"
-            attributedString.addAttribute(NSForegroundColorAttributeName, value: UIColor.greenColor(), range: NSRange(location: 0, length: discountPriceString.characters.count))
-            attributedString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location: discountPriceString.characters.count + 3, length: basePriceString.characters.count))
+            attributedString.addAttribute(NSForegroundColorAttributeName, value: UIColor.whiteColor(), range: NSRange(location: 0, length: discountPriceString.characters.count))
+            attributedString.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFontOfSize(17), range: NSRange(location: 0, length: discountPriceString.characters.count))
+            attributedString.addAttribute(NSForegroundColorAttributeName, value: UIColor(red:0.92, green:0.13, blue :0.18, alpha:1), range: NSRange(location: discountPriceString.characters.count + 3, length: basePriceString.characters.count))
             attributedString.addAttribute(NSStrikethroughStyleAttributeName, value: 2, range: NSRange(location: discountPriceString.characters.count + 3, length: basePriceString.characters.count))
             
             self.attributedText = attributedString

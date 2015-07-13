@@ -94,7 +94,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-rq-uAb" customClass="HKSDiscountBadgeView" customModule="HOKOstore" customModuleProvider="target">
                                                     <rect key="frame" x="262" y="8" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.92156862745098034" green="0.12941176470588234" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="Qus-RR-xS2"/>
                                                         <constraint firstAttribute="width" constant="50" id="w9g-GL-gDJ"/>
@@ -233,8 +233,8 @@
                                     <rect key="frame" x="30" y="296" width="340" height="0.0"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOstore" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="247" width="600" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOstore" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="241" width="600" height="33"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="LWb-r8-5n0"/>

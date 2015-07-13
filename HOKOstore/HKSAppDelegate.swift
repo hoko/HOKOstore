@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HOKOstore
+//  HOKOStore
 //
 //  Created by Pedro Vieira on 08/07/15.
 //  Copyright © 2015 HOKO. All rights reserved.

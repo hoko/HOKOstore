@@ -24,7 +24,7 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
     }
     
     override func viewWillAppear(animated: Bool) {
-        self.setStyledTitle("HOKOstore")
+        self.setStyledTitle("HOKOStore")
         
         productsCollectionView.reloadData()
     }

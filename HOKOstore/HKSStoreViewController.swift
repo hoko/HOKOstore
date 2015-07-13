@@ -41,6 +41,10 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let viewCell = collectionView.dequeueReusableCellWithReuseIdentifier("productCellIdentifier", forIndexPath: indexPath) as! HKSProductFeedCollectionCellView
         
+        let width = CGRectGetWidth(collectionView.frame)
+        viewCell.frame.size = CGSizeMake(width, max(width/2, 227))
+        viewCell.frame.origin.x = 0
+        
         let product = productsArray[indexPath.row]
         viewCell.updateCellWithProduct(product)
         

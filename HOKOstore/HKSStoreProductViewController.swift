@@ -33,7 +33,7 @@ class HKSStoreProductViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         if let coupon = newlyReedemedCoupon {
             self.presentViewController(UIAlertController.alertWithTitle("Congratulations",
-                message: "You just reedemed '\(coupon.name)' coupon and received a discount of $\(coupon.discount) because you clicked on the right link!",
+                message: "You just redeemed '\(coupon.name)' coupon and received a discount of $\(coupon.discount) because you clicked on the right link!",
                 buttonTitle: "Awesome!"),
             animated: true, completion: nil)
         }

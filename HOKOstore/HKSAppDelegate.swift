@@ -36,35 +36,37 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
         Hoko.deeplinking().mapRoute("product/:product_id", toTarget: { deeplink in
             //When a deeplink enteres this route, we know for sure that the routeParameters will contain some data
             //and that it has the key 'product_id'
-            let productID = deeplink.routeParameters!["product_id"]! as! String
-            
-            if let product = HKSProduct.productWithId(UInt(productID)!) {
-                let productViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
+            //But, for type safety, we will use optional checking.
+            if let productID = deeplink.routeParameters?["product_id"] as? UInt {
                 
-                productViewController.product = product
-                
-                //____ This is the core part of this Use Case app ____
-                //
-                //We'll check if the deeplink's metada dictionary contains the key 'coupon' which is its code (e.g. save20)
-                //and the key 'value' which is its discount value (e.g. $20).
-                //
-                //Keep in mind that this keys are not guaranteed to be in every smartlink because they're optional,
-                //so make sure that you still present the Product's View Controller even if there's no coupon
-                if let couponCode = deeplink.metadata?["coupon"] as? String, discount = Float(deeplink.metadata?["value"] as! String) {
-                    let coupon = HKSCoupon(name: couponCode, discount: discount)
+                if let product = HKSProduct.productWithId(productID) {
+                    let productViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
                     
-                    //we will save on the app's NSUserDefaults that the user already has redeemed a coupon for product X
-                    //which will be used later to show a discount badge on that product's cell
-                    NSUserDefaults.saveCoupon(coupon, forProduct: productID)
+                    productViewController.product = product
                     
-                    productViewController.newlyRedeemedCoupon = coupon
+                    //____ This is the core part of this Use Case app ____
+                    //
+                    //We'll check if the deeplink's metada dictionary contains the key 'coupon' which is its code (e.g. save20)
+                    //and the key 'value' which is its discount value (e.g. $20).
+                    //
+                    //Keep in mind that this keys are not guaranteed to be in every smartlink because they're optional,
+                    //so make sure that you still present the Product's View Controller even if there's no coupon
+                    if let couponCode = deeplink.metadata?["coupon"] as? String, discount = Float(deeplink.metadata?["value"] as! String) {
+                        let coupon = HKSCoupon(name: couponCode, discount: discount)
+                        
+                        //we will save on the app's NSUserDefaults that the user already has redeemed a coupon for product X
+                        //which will be used later to show a discount badge on that product's cell
+                        NSUserDefaults.saveCoupon(coupon, forProduct: String(productID))
+                        
+                        productViewController.newlyRedeemedCoupon = coupon
+                    }
+                    
+                    //We present the Product View Controller whether the link contained a coupon metadata entry or not
+                    HOKNavigation.pushViewController(productViewController, animated: true, replace: true)
+                    
+                } else {
+                    self.window?.rootViewController?.presentViewController(UIAlertController.alertWithTitle("Oops!", message: "Unfortunately we couldn't find that product", buttonTitle: "Bummer"), animated: true, completion: nil)
                 }
-                
-                //We present the Product View Controller whether the link contained a coupon metadata entry or not
-                HOKNavigation.pushViewController(productViewController, animated: true, replace: true)
-                
-            } else {
-                self.window?.rootViewController?.presentViewController(UIAlertController.alertWithTitle("Oops!", message: "Unfortunately we couldn't find that product", buttonTitle: "Bummer"), animated: true, completion: nil)
             }
         })
     }

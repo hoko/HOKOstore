@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HOKOstore.xcodeproj">
+      location = "group:/Users/pedrovieira/Documents/HOKO/HOKOstore/HOKOstore.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

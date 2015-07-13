@@ -10,11 +10,12 @@ import UIKit
 
 class HKSProductDiscountLabel: UILabel {
     func setTitleWithPrice(price: Float, discount: Float?) {
-        if let disc = discount {
-            let priceString = "$\(price - disc) / $\(price)"
+        
+        if let myDiscount = discount {
+            let priceString = "$\(price - myDiscount) / $\(price)"
             let attributedString = NSMutableAttributedString(string:priceString)
             
-            let discountPriceString = "$\(price - disc)"
+            let discountPriceString = "$\(price - myDiscount)"
             let basePriceString = "$\(price)"
             attributedString.addAttribute(NSForegroundColorAttributeName, value: UIColor.whiteColor(), range: NSRange(location: 0, length: discountPriceString.characters.count))
             attributedString.addAttribute(NSFontAttributeName, value: UIFont.boldSystemFontOfSize(17), range: NSRange(location: 0, length: discountPriceString.characters.count))

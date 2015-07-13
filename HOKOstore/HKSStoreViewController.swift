@@ -63,8 +63,8 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     // MARK: segue method
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let vc = segue.destinationViewController as! HKSStoreProductViewController
-        vc.product = productsArray[(sender as! NSIndexPath).row]
+        let productViewController = segue.destinationViewController as! HKSStoreProductViewController
+        productViewController.product = productsArray[(sender as! NSIndexPath).row]
         self.title = " "
     }
 }

@@ -18,7 +18,7 @@ class HKSDiscountBadgeView: UIView {
     }
     
     func setDiscountPercentage(perc: Int) {
-        percentage = perc
+        percentage = perc > 100 ? 100 : perc
         self.setNeedsDisplay()
     }
     
@@ -26,7 +26,7 @@ class HKSDiscountBadgeView: UIView {
         super.drawRect(rect)
         
         if percentage != nil {
-            let string = "-\(percentage!)%"
+            let string = percentage == 100 ? "FREE" : "-\(percentage!)%"
             
             let paraStyle = NSMutableParagraphStyle()
             paraStyle.alignment = .Center

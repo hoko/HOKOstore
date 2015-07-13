@@ -19,6 +19,9 @@
 		C9B563201B4D589D004BD5E6 /* HKSProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5631F1B4D589D004BD5E6 /* HKSProduct.swift */; };
 		C9B563231B4D5F3F004BD5E6 /* HKSProductFeedCollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B563221B4D5F3F004BD5E6 /* HKSProductFeedCollectionCellView.swift */; };
 		C9B563271B4D6568004BD5E6 /* BodoniXT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9B563261B4D6568004BD5E6 /* BodoniXT.ttf */; };
+		C9B7FD9C1B53B73C0016F087 /* NSUserDefaults+HKSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7FD9B1B53B73C0016F087 /* NSUserDefaults+HKSExtensions.swift */; };
+		C9B7FD9E1B53C3890016F087 /* HKSCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7FD9D1B53C3890016F087 /* HKSCoupon.swift */; };
+		C9B7FDA11B53C5860016F087 /* HKSProductDiscountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7FDA01B53C5860016F087 /* HKSProductDiscountLabel.swift */; };
 		C9C1921C1B4D6C6A00B0BB4F /* UIViewController+StyledTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1921B1B4D6C6A00B0BB4F /* UIViewController+StyledTitle.swift */; };
 		C9C1921E1B4D6D6600B0BB4F /* Novecento-sans-wide-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9C1921D1B4D6D6000B0BB4F /* Novecento-sans-wide-DemiBold.otf */; };
 		C9CACEB71B4E8E2300566A4E /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CACEB61B4E8E2300566A4E /* UIAlertController+Extension.swift */; };
@@ -64,6 +67,9 @@
 		C9B5631F1B4D589D004BD5E6 /* HKSProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKSProduct.swift; sourceTree = "<group>"; };
 		C9B563221B4D5F3F004BD5E6 /* HKSProductFeedCollectionCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKSProductFeedCollectionCellView.swift; sourceTree = "<group>"; };
 		C9B563261B4D6568004BD5E6 /* BodoniXT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BodoniXT.ttf; sourceTree = "<group>"; };
+		C9B7FD9B1B53B73C0016F087 /* NSUserDefaults+HKSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+HKSExtensions.swift"; sourceTree = "<group>"; };
+		C9B7FD9D1B53C3890016F087 /* HKSCoupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKSCoupon.swift; sourceTree = "<group>"; };
+		C9B7FDA01B53C5860016F087 /* HKSProductDiscountLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKSProductDiscountLabel.swift; sourceTree = "<group>"; };
 		C9C1921B1B4D6C6A00B0BB4F /* UIViewController+StyledTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+StyledTitle.swift"; sourceTree = "<group>"; };
 		C9C1921D1B4D6D6000B0BB4F /* Novecento-sans-wide-DemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Novecento-sans-wide-DemiBold.otf"; sourceTree = "<group>"; };
 		C9C1921F1B4D8B9200B0BB4F /* HOKOstore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HOKOstore.entitlements; sourceTree = "<group>"; };
@@ -144,6 +150,7 @@
 				C9B5631E1B4D5874004BD5E6 /* Models */,
 				C9C1921A1B4D6C4700B0BB4F /* Extensions */,
 				C9B563211B4D5F10004BD5E6 /* Views */,
+				C9B7FD9F1B53C56C0016F087 /* Label */,
 				C9B5631D1B4D577B004BD5E6 /* View Controllers */,
 				C9B5631C1B4D5776004BD5E6 /* App Delegate */,
 				C9B563241B4D6559004BD5E6 /* Resources */,
@@ -198,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				C9B5631F1B4D589D004BD5E6 /* HKSProduct.swift */,
+				C9B7FD9D1B53C3890016F087 /* HKSCoupon.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -232,11 +240,20 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		C9B7FD9F1B53C56C0016F087 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				C9B7FDA01B53C5860016F087 /* HKSProductDiscountLabel.swift */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
 		C9C1921A1B4D6C4700B0BB4F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				C9C1921B1B4D6C6A00B0BB4F /* UIViewController+StyledTitle.swift */,
 				C9CACEB61B4E8E2300566A4E /* UIAlertController+Extension.swift */,
+				C9B7FD9B1B53B73C0016F087 /* NSUserDefaults+HKSExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -419,6 +436,9 @@
 				C9CACEB91B4EC59000566A4E /* HKSDiscountBadgeView.swift in Sources */,
 				C9B562EF1B4D3F67004BD5E6 /* HKSStoreViewController.swift in Sources */,
 				C9B563201B4D589D004BD5E6 /* HKSProduct.swift in Sources */,
+				C9B7FD9C1B53B73C0016F087 /* NSUserDefaults+HKSExtensions.swift in Sources */,
+				C9B7FD9E1B53C3890016F087 /* HKSCoupon.swift in Sources */,
+				C9B7FDA11B53C5860016F087 /* HKSProductDiscountLabel.swift in Sources */,
 				C9B562ED1B4D3F67004BD5E6 /* HKSAppDelegate.swift in Sources */,
 				C9B563231B4D5F3F004BD5E6 /* HKSProductFeedCollectionCellView.swift in Sources */,
 				C99ADE631B4D67ED00950090 /* HKSStoreProductViewController.swift in Sources */,

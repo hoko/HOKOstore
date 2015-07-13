@@ -45,10 +45,9 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
         let product = productsArray[indexPath.row]
         viewCell.updateCellWithProduct(product)
         
-        let discount = NSUserDefaults().floatForKey("product: \(product.id)")
-        if discount > 0 {
+        if let coupon = NSUserDefaults.getCouponForProduct("\(product.id)") {
             viewCell.discountBadge.hidden = false
-            viewCell.discountBadge.setDiscountPercentage(Int(discount * 100 / product.price))
+            viewCell.discountBadge.setDiscountPercentage(Int(coupon.discount * 100 / product.price))
         } else {
             viewCell.discountBadge.hidden = true
         }

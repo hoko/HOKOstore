@@ -131,12 +131,12 @@
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="cJU-gf-mIR"/>
+                                                <exclude reference="qDB-rd-Bz2"/>
                                                 <exclude reference="0bu-gH-WKB"/>
                                                 <exclude reference="9sa-2T-Tdc"/>
                                                 <exclude reference="Swr-9Z-gmx"/>
                                                 <exclude reference="lq4-du-BPS"/>
                                                 <exclude reference="s4c-Pa-wPA"/>
-                                                <exclude reference="qDB-rd-Bz2"/>
                                             </mask>
                                         </variation>
                                         <connections>
@@ -233,7 +233,7 @@
                                     <rect key="frame" x="30" y="296" width="340" height="0.0"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOstore" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="247" width="600" height="27"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>

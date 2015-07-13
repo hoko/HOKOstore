@@ -28,24 +28,25 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
         
 
         Hoko.deeplinking().addHandlerBlock { deeplink in
-            print("TEST: Deeplink Received\n\n")
+            print("A wild deep link was caught!\n\n")
         }
         
         Hoko.deeplinking().mapRoute("product/:product_id", toTarget: { deeplink in
-            let productID = deeplink.routeParameters?["product_id"] as? String
-            
-            if let product = HKSProduct.productWithId(UInt(productID!)!) {
+            let productID = deeplink.routeParameters?["product_id"]! as! String
+            if let product = HKSProduct.productWithId(UInt(productID)!) {
                 let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
+                
                 vc.product = product
                 
-                if let coupon = deeplink.metadata?["coupon"], discount = Float(deeplink.metadata?["value"]  as! String) {
-                    let defaults = NSUserDefaults()
-                    defaults.setFloat(discount, forKey: "product: \(product.id)")
-                    
-                    vc.newlyReedemedCoupon = discount
+                if let couponCode = deeplink.metadata?["coupon"] as? String, discount = Float(deeplink.metadata?["value"] as! String) {
+                    let coupon = HKSCoupon(name: couponCode, discount: discount)
+                    NSUserDefaults.saveCoupon(coupon, forProduct: productID)
+                    vc.newlyReedemedCoupon = coupon
                 }
                 
                 HOKNavigation.pushViewController(vc, animated: true, replace: true)
+            } else {
+                self.window?.rootViewController?.presentViewController(UIAlertController.alertWithTitle("Oops!", message: "Unfortunately we couldn't find that product", buttonTitle: "Bummer"), animated: true, completion: nil)
             }
         })
     }

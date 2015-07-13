@@ -9,11 +9,11 @@
 import Foundation
 
 struct HKSProduct {
-    var id: UInt
-    var title: String
-    var description: String
-    var image: UIImage
-    var price: Float
+    let id: UInt
+    let title: String
+    let description: String
+    let image: UIImage
+    let price: Float
     
     init(id: UInt, title: String, description: String, image: UIImage, price: Float) {
         self.id = id

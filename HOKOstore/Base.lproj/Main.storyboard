@@ -233,11 +233,11 @@
                                     <rect key="frame" x="30" y="296" width="340" height="0.0"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOstore" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOstore" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="241" width="600" height="33"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="LWb-r8-5n0"/>
+                                    <constraint firstAttribute="height" constant="33" id="LWb-r8-5n0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -265,7 +265,7 @@
                             <constraint firstItem="7ou-x3-jgi" firstAttribute="leading" secondItem="AOZ-IS-mdt" secondAttribute="leading" id="qCN-9f-17C"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tIz-0J-M85" secondAttribute="trailing" constant="10" id="qG9-Q3-ENe"/>
                             <constraint firstItem="tIz-0J-M85" firstAttribute="top" secondItem="Odz-fH-sWs" secondAttribute="bottom" constant="8" id="qyQ-sP-s37"/>
-                            <constraint firstItem="3Zg-nQ-qw5" firstAttribute="top" secondItem="WLK-cb-IBn" secondAttribute="bottom" constant="183" id="w5r-OW-HLG"/>
+                            <constraint firstItem="3Zg-nQ-qw5" firstAttribute="top" secondItem="WLK-cb-IBn" secondAttribute="bottom" constant="177" id="w5r-OW-HLG"/>
                             <constraint firstItem="3Zg-nQ-qw5" firstAttribute="leading" secondItem="ZB6-Sk-vPx" secondAttribute="leadingMargin" constant="-20" id="xJF-gf-lhx"/>
                         </constraints>
                     </view>

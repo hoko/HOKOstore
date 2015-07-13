@@ -16,7 +16,7 @@ class HKSStoreProductViewController: UIViewController {
     @IBOutlet weak var productDescriptionLabel: UILabel!
     
     var product: HKSProduct!
-    var newlyReedemedCoupon: HKSCoupon?
+    var newlyRedeemedCoupon: HKSCoupon?
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
@@ -31,7 +31,10 @@ class HKSStoreProductViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        if let coupon = newlyReedemedCoupon {
+        //The 'newlyRedeemed' property is used when the user opens a smartlink with a coupon metadata entry.
+        //When this view appears, it will check if this property is different from nil. If it is,
+        //we show an alert to notify the user that they just redeemed a coupon successfully.
+        if let coupon = newlyRedeemedCoupon {
             self.presentViewController(UIAlertController.alertWithTitle("Congratulations",
                 message: "You just redeemed '\(coupon.name)' coupon and received a discount of $\(coupon.discount) because you clicked on the right link!",
                 buttonTitle: "Awesome!"),

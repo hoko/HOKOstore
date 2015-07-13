@@ -10,53 +10,63 @@ import UIKit
 
 @UIApplicationMain
 class HKSAppDelegate: UIResponder, UIApplicationDelegate {
-
-    let HKSUserSignedInDefaultsKey = "HKSUserSignedIn"
-    
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         setupHoko()
-        showSignInViewIfNeeded()
-        //NSUserDefaults.standardUserDefaults().removePersistentDomainForName(NSBundle.mainBundle().bundleIdentifier!)
         
         return true
     }
     
     func setupHoko() {
+        //First we setup HOKO using the token given that is given on http://www.hokolinks.com
+        //But, for this example, we will you give one that was already created
+        //by the HOKO team for testing/displaying purposes.
         Hoko.setupWithToken("9fad9a7b52e539d000c8f1c73a808afcf4ae4851")
-        Hoko.setVerbose(true)
+        Hoko.setVerbose(true) //we set 'verbose' to 'true' in order to the SDK print messages on the console
         
-
+        //addHandlerBlock will be called every time a deeplink is opened
+        //we're just printing a message to acknowledge it.
         Hoko.deeplinking().addHandlerBlock { deeplink in
             print("A wild deep link was caught!\n\n")
         }
         
+        //This use case app is used to "sell" products, therefore the route we will use
+        //is "product/:product_id"
         Hoko.deeplinking().mapRoute("product/:product_id", toTarget: { deeplink in
-            let productID = deeplink.routeParameters?["product_id"]! as! String
+            //When a deeplink enteres this route, we know for sure that the routeParameters will contain some data
+            //and that it has the key 'product_id'
+            let productID = deeplink.routeParameters!["product_id"]! as! String
+            
             if let product = HKSProduct.productWithId(UInt(productID)!) {
                 let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
                 
                 vc.product = product
                 
+                //____ This is the core part of this Use Case app ____
+                //
+                //We'll check if the deeplink's metada dictionary contains the key 'coupon' which is its code (e.g. save20)
+                //and the key 'value' which is its discount value (e.g. $20).
+                //
+                //Keep in mind that this keys are not guaranteed to be in every smartlink because they're optional,
+                //so make sure that you still present the Product's View Controller even if there's no coupon
                 if let couponCode = deeplink.metadata?["coupon"] as? String, discount = Float(deeplink.metadata?["value"] as! String) {
                     let coupon = HKSCoupon(name: couponCode, discount: discount)
+                    
+                    //we will save on the app's NSUserDefaults that the user already has redeemed a coupon for product X
+                    //which will be used later to show a discount badge on that product's cell
                     NSUserDefaults.saveCoupon(coupon, forProduct: productID)
-                    vc.newlyReedemedCoupon = coupon
+                    
+                    vc.newlyRedeemedCoupon = coupon
                 }
                 
+                //We present the Product View Controller whether the link contained a coupon metadata entry or not
                 HOKNavigation.pushViewController(vc, animated: true, replace: true)
+                
             } else {
                 self.window?.rootViewController?.presentViewController(UIAlertController.alertWithTitle("Oops!", message: "Unfortunately we couldn't find that product", buttonTitle: "Bummer"), animated: true, completion: nil)
             }
         })
-    }
-    
-    func showSignInViewIfNeeded() {
-        if !NSUserDefaults().boolForKey(HKSUserSignedInDefaultsKey) {
-            print("TEST: should show sign in panel \n\n\n\n\n\n")
-            //defaults.setBool(true, forKey: HKSUserSignedInDefaultsKey)
-        }
     }
 
     func applicationWillResignActive(application: UIApplication) {

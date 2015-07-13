@@ -15,7 +15,7 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         productsArray.append(HKSProduct.productWithId(0)!)
         productsArray.append(HKSProduct.productWithId(1)!)
         productsArray.append(HKSProduct.productWithId(2)!)
@@ -31,7 +31,6 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // MARK: UICollectionViewDelegate and UICollectionViewDataSource methods
@@ -45,6 +44,9 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
         let product = productsArray[indexPath.row]
         viewCell.updateCellWithProduct(product)
         
+        //Here we check if there is an entry on the app's NSUserDefaults with a coupon for 
+        //the current product. If there is, we show a badge showing the discount percentage.
+        //This is a simple and straightfoward example of giving feedback to your user.
         if let coupon = NSUserDefaults.getCouponForProduct("\(product.id)") {
             viewCell.discountBadge.hidden = false
             viewCell.discountBadge.setDiscountPercentage(Int(coupon.discount * 100 / product.price))

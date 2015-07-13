@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+//The struct that represents a coupon on HOKOstore
 struct HKSCoupon {
     let name: String
     let discount: Float

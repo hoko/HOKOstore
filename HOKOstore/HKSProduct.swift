@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+//The struct that represents a Product in HOKOstore
 struct HKSProduct {
     let id: UInt
     let title: String

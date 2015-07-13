@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 extension UIViewController {
     func setStyledTitle(title: String) {
         var label: UILabel

@@ -9,3 +9,6 @@ HOKO use case using metadata (coupons) written in `Swift`.
 </p>
 
 ### After tapping on the coupon link (e.g. http://black.hoko.link/save20)
+<p align="center" >
+<img src="/resources/with-link.png">
+</p>

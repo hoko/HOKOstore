@@ -20,13 +20,13 @@ class HKSStoreViewController: UIViewController, UICollectionViewDelegate, UIColl
         productsArray.append(HKSProduct.productWithId(1)!)
         productsArray.append(HKSProduct.productWithId(2)!)
         
-        productsCollectionView.reloadData()
-        
         self.setStyledTitle(self.navigationItem.title!)
     }
     
     override func viewWillAppear(animated: Bool) {
         self.setStyledTitle("HOKOstore")
+        
+        productsCollectionView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {

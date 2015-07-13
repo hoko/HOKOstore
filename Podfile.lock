@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Hoko:
-    :commit: 02fee4ee7454e9093cedc99228ebfa0dc7c18b6f
+    :commit: 37da9debbac47b3e1b7985be2253f4a001702f54
     :git: https://github.com/hokolinks/hoko-ios
 
 SPEC CHECKSUMS:

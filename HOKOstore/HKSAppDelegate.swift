@@ -39,9 +39,9 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
             let productID = deeplink.routeParameters!["product_id"]! as! String
             
             if let product = HKSProduct.productWithId(UInt(productID)!) {
-                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
+                let productViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
                 
-                vc.product = product
+                productViewController.product = product
                 
                 //____ This is the core part of this Use Case app ____
                 //
@@ -57,11 +57,11 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
                     //which will be used later to show a discount badge on that product's cell
                     NSUserDefaults.saveCoupon(coupon, forProduct: productID)
                     
-                    vc.newlyRedeemedCoupon = coupon
+                    productViewController.newlyRedeemedCoupon = coupon
                 }
                 
                 //We present the Product View Controller whether the link contained a coupon metadata entry or not
-                HOKNavigation.pushViewController(vc, animated: true, replace: true)
+                HOKNavigation.pushViewController(productViewController, animated: true, replace: true)
                 
             } else {
                 self.window?.rootViewController?.presentViewController(UIAlertController.alertWithTitle("Oops!", message: "Unfortunately we couldn't find that product", buttonTitle: "Bummer"), animated: true, completion: nil)

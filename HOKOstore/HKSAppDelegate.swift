@@ -37,9 +37,9 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
       //When a deeplink enteres this route, we know for sure that the routeParameters will contain some data
       //and that it has the key 'product_id'
       //But, for type safety, we will use optional checking.
-      if let productID = deeplink.routeParameters?["product_id"] as? UInt {
+      if let productID = deeplink.routeParameters?["product_id"] {
         
-        if let product = HKSProduct.productWithId(productID) {
+        if let product = HKSProduct.productWithId(UInt(productID)!) {
           let productViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Store Product View Controller") as! HKSStoreProductViewController
           
           productViewController.product = product

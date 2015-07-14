@@ -50,17 +50,17 @@
 		3E39BDC347A6171BB8FBEA48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B897652C5EA443B09A21ADA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C99ADE621B4D67ED00950090 /* HKSStoreProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKSStoreProductViewController.swift; sourceTree = "<group>"; };
-		C9B562E91B4D3F67004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOKOStore.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B562E91B4D3F67004BD5E6 /* HOKOStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOKOStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B562EC1B4D3F67004BD5E6 /* HKSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSAppDelegate.swift; sourceTree = "<group>"; };
 		C9B562EE1B4D3F67004BD5E6 /* HKSStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSStoreViewController.swift; sourceTree = "<group>"; };
 		C9B562F11B4D3F67004BD5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9B562F31B4D3F67004BD5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B562F61B4D3F67004BD5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9B562F81B4D3F67004BD5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9B562FD1B4D3F68004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOKOStore.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B562FD1B4D3F68004BD5E6 /* HOKOStore..xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOKOStore.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B563011B4D3F68004BD5E6 /* HOKOstoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOKOstoreTests.swift; sourceTree = "<group>"; };
 		C9B563031B4D3F68004BD5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9B563081B4D3F68004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOKOStore.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B563081B4D3F68004BD5E6 /* HOKOStore.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOKOStore.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B5630C1B4D3F68004BD5E6 /* HOKOstoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOKOstoreUITests.swift; sourceTree = "<group>"; };
 		C9B5630E1B4D3F68004BD5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9B5631B1B4D4496004BD5E6 /* HOKOstore-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HOKOstore-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		C9B562EA1B4D3F67004BD5E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9B562E91B4D3F67004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.app */,
-				C9B562FD1B4D3F68004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.xctest */,
-				C9B563081B4D3F68004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.xctest */,
+				C9B562E91B4D3F67004BD5E6 /* HOKOStore.app */,
+				C9B562FD1B4D3F68004BD5E6 /* HOKOStore.xctest */,
+				C9B563081B4D3F68004BD5E6 /* HOKOStore.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = HOKOstore;
 			productName = HOKOstore;
-			productReference = C9B562E91B4D3F67004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.app */;
+			productReference = C9B562E91B4D3F67004BD5E6 /* HOKOStore.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C9B562FC1B4D3F68004BD5E6 /* HOKOstoreTests */ = {
@@ -295,7 +295,7 @@
 			);
 			name = HOKOstoreTests;
 			productName = HOKOstoreTests;
-			productReference = C9B562FD1B4D3F68004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.xctest */;
+			productReference = C9B562FD1B4D3F68004BD5E6 /* HOKOStore.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C9B563071B4D3F68004BD5E6 /* HOKOstoreUITests */ = {
@@ -313,7 +313,7 @@
 			);
 			name = HOKOstoreUITests;
 			productName = HOKOstoreUITests;
-			productReference = C9B563081B4D3F68004BD5E6 /* HOKOStore.temp_caseinsensitive_rename.xctest */;
+			productReference = C9B563081B4D3F68004BD5E6 /* HOKOStore.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -588,7 +588,7 @@
 				INFOPLIST_FILE = HOKOstore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoko.HOKOstore;
-				PRODUCT_NAME = HOKOStore.temp_caseinsensitive_rename;
+				PRODUCT_NAME = HOKOStore;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HOKOstore/HOKOstore-Bridging-Header.h";
 			};
@@ -605,7 +605,7 @@
 				INFOPLIST_FILE = HOKOstore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoko.HOKOstore;
-				PRODUCT_NAME = HOKOStore.temp_caseinsensitive_rename;
+				PRODUCT_NAME = HOKOStore;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HOKOstore/HOKOstore-Bridging-Header.h";
 			};
@@ -618,8 +618,8 @@
 				INFOPLIST_FILE = HOKOstoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoko.HOKOstoreTests;
-				PRODUCT_NAME = HOKOStore.temp_caseinsensitive_rename;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOKOStore.temp_caseinsensitive_rename.app/HOKOStore.temp_caseinsensitive_rename";
+				PRODUCT_NAME = HOKOStore;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOKOStore.app/HOKOStore";
 			};
 			name = Debug;
 		};
@@ -630,8 +630,8 @@
 				INFOPLIST_FILE = HOKOstoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoko.HOKOstoreTests;
-				PRODUCT_NAME = HOKOStore.temp_caseinsensitive_rename;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOKOStore.temp_caseinsensitive_rename.app/HOKOStore.temp_caseinsensitive_rename";
+				PRODUCT_NAME = HOKOStore;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HOKOStore.app/HOKOStore";
 			};
 			name = Release;
 		};
@@ -641,7 +641,7 @@
 				INFOPLIST_FILE = HOKOstoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoko.HOKOstoreUITests;
-				PRODUCT_NAME = HOKOStore.temp_caseinsensitive_rename;
+				PRODUCT_NAME = HOKOStore;
 				TEST_TARGET_NAME = HOKOstore;
 				USES_XCTRUNNER = YES;
 			};
@@ -653,7 +653,7 @@
 				INFOPLIST_FILE = HOKOstoreUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoko.HOKOstoreUITests;
-				PRODUCT_NAME = HOKOStore.temp_caseinsensitive_rename;
+				PRODUCT_NAME = HOKOStore;
 				TEST_TARGET_NAME = HOKOstore;
 				USES_XCTRUNNER = YES;
 			};

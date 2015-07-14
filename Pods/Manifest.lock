@@ -1,5 +1,5 @@
 PODS:
-  - Hoko (2.0.3)
+  - Hoko (2.1)
 
 DEPENDENCIES:
   - Hoko (from `https://github.com/hokolinks/hoko-ios`)
@@ -10,10 +10,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Hoko:
-    :commit: 37da9debbac47b3e1b7985be2253f4a001702f54
+    :commit: c41ffc25e668cc6cb6f9ccdbd92c4fc328dc7105
     :git: https://github.com/hokolinks/hoko-ios
 
 SPEC CHECKSUMS:
-  Hoko: bc2e423149642970a51192eabdcf91513ecde762
+  Hoko: bbb99adbf8ae9c729adec668c47216612d05ca93
 
 COCOAPODS: 0.37.2

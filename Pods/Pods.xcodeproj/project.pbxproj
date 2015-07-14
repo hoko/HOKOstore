@@ -7,377 +7,377 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05304AC1A43BF676FE71CC31 /* HOKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9701A54070474A88C4ED0 /* HOKNetworkOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0900818DBFC2DD6341EAB583 /* Hoko.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F31A62155F7ABCE1F8A621 /* Hoko.h */; };
-		13E81D800D3F1182F750F62F /* HOKResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = A03D370E82BB57FBF7F93625 /* HOKResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		15354B08F5D6BC7A132AA6A8 /* HOKGZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 088B52B60AC69DB2A8456423 /* HOKGZip.h */; };
-		1885E37A97DCADC59C43AF65 /* HOKError.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDE05FD2B6B717A0ED3DD30 /* HOKError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		18DE048A1BE1C92E86CD64F6 /* HOKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0BCD129D19719732983628 /* HOKDevice.h */; };
-		248D782039497AE66510EBD8 /* HOKNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = B7ECD3F2B922A8ABD8FD7C25 /* HOKNavigation.h */; };
-		29E5F8B64E7809C71FA2BDA6 /* HOKObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3F771948555F9E8222249C /* HOKObserver.h */; };
-		2AF172FF01F689A514CDBB50 /* HOKLinkGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F9A7FC6620E4C3C9251456 /* HOKLinkGenerator.h */; };
-		318457F80E16F1D705DB430F /* HOKSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AD26E4E1254454B4C2A3DDD2 /* HOKSwizzling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3327F366E08511EFD08BA606 /* HOKVersionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C95BA5DD7C50DF0B010B3C6 /* HOKVersionChecker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		35DDEC8ED0F7FA7D2ABAC465 /* HOKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 143837D1149EB233CF7E4947 /* HOKDevice.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		378BEB4F4ADC72E57BB18AD8 /* HOKVersionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD6F0A8E99A69AB41518A51 /* HOKVersionChecker.h */; };
-		38464B4F89D960090739A26D /* HOKError.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DC975740F8487E8B61740D /* HOKError.h */; };
-		3F91CF29FDCA32DF5F2B7FBB /* HOKDeeplink.h in Headers */ = {isa = PBXBuildFile; fileRef = 129EA02A4DD17AE7384F449D /* HOKDeeplink.h */; };
-		3FDA788A0F3BFF5C89C9F4CF /* HOKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF48C2C3A1B9EA4895F498 /* HOKNetworking.h */; };
-		416677B2F6C7A0C903F8BB46 /* HOKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EC6268CF0B5CA06DB421F2 /* HOKURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		423F02E65D2C615A2C1008CD /* Pods-Hoko-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB50CF2B732114E4BD19EF /* Pods-Hoko-dummy.m */; };
-		47F1C0A90CF4A724CA70640F /* HOKHandlerBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340D649186BAC3CFEAB5704 /* HOKHandlerBlockWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4A2150266A33626084F5CE91 /* Hoko+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 073DC493CB69D9E97C9C35A6 /* Hoko+Private.h */; };
-		50217886275959DEDE05AD45 /* HOKDeeplinking.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E914790BB2AA35243544C /* HOKDeeplinking.h */; };
-		528F49E91E38A6782AAC71DC /* HOKLinkGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CC9888FEF6AE51B198C27 /* HOKLinkGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5AA861DD2DB979DBDB29C246 /* HOKNotificationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 25ACD74A0A3810DABB119D4C /* HOKNotificationObserver.h */; };
-		5ED61974F4C8D8EFAE15B816 /* HOKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D0385FEC8019989A0CC56C /* HOKLogger.h */; };
-		5F329235156B5C6F4B0F27E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB722298F0C9E56DD45DFD26 /* Foundation.framework */; };
-		6185D56FD36C4F62415424EA /* HOKURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 70085C82FDFC2BD4B971F7C2 /* HOKURL.h */; };
-		62B9F47545825BA1DB58BCDF /* HOKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1755FFE837F0AFE0F1AF0302 /* HOKObserver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		62D92B257ECBC4C025F4A6EF /* HOKDeeplink+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C14E7DE60D6BA0D3601469C /* HOKDeeplink+Private.h */; };
-		6F8C0275AFD0D96B17DD5AF7 /* HOKObjectObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCB52EB096CCEF12ACADBC /* HOKObjectObserver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7100A4291E3B9E69A2BC32BF /* HOKApp.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8555E742DFA3378024FC38 /* HOKApp.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		739D27B85EAB87A6F7DE57BE /* Hoko.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A506C4E6726E6BBEC2AE36 /* Hoko.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7A5C4B25AC80E4FD40A03DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D682DF90E6B61D8A1F2F5E38 /* UIKit.framework */; };
-		7D952324548EEF2A9FBF24AB /* HOKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BF88C455DF65AED0AFA57D71 /* HOKUtils.h */; };
-		845EF74CE73676FB2F5AF9D3 /* HOKDeeplinking.m in Sources */ = {isa = PBXBuildFile; fileRef = 222D69B49A755432D2AA4456 /* HOKDeeplinking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		88AFAF649079C7DFE5905384 /* HOKNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 674BCCF3423E8B13D0E97161 /* HOKNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8C120838555BDA5D4FB22BD6 /* HOKDeeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 193D49F98BBA5BAEBA2FF165 /* HOKDeeplink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8E75E18AAA0694202631CB83 /* HOKResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE7E9BC755F1F27BEEB448A /* HOKResolver.h */; };
-		8ECC85BB7F66A656DACF92F7 /* HOKHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = A854726AB93D21458928D0CF /* HOKHandling.h */; };
-		92797E9C347A8739479583D1 /* HOKDeferredDeeplinking.h in Headers */ = {isa = PBXBuildFile; fileRef = CB134AE8F3AE782C5905A071 /* HOKDeferredDeeplinking.h */; };
-		95C099F1D7E2FA287E6A0752 /* Hoko+Nullability.h in Headers */ = {isa = PBXBuildFile; fileRef = B86729B7D2A3168D2E2790F2 /* Hoko+Nullability.h */; };
-		96DADB62DE4485F121D4DC51 /* HOKHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A7DAFD0DDC1A9DD5D6CAF /* HOKHandling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A12190D05706F4466BF0E1C7 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8646A0033755B07928BDED02 /* Pods-dummy.m */; };
-		A7B494BE116C29BD5D1FD5C9 /* HOKNetworkOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8238B35B4D0114CC9212C507 /* HOKNetworkOperationQueue.h */; };
-		ADB6BF75BEF312E112F081DF /* HOKNetworkOperationQueue+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8382E3F059D19330E057C2 /* HOKNetworkOperationQueue+Private.h */; };
-		AE3AEFD18F8A9C7B81691579 /* HOKNetworkOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD0B96D52EBA1A8FA5F4F25 /* HOKNetworkOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B2075B72E5D458A74432EB37 /* HOKRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC6A7FDB678825721D7CF9D /* HOKRouting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B9DA4225970FEAC19A754DA6 /* HOKRouting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2DF637E44BEF405C130028 /* HOKRouting.h */; };
-		BA01AACAADBA9034B5B34A83 /* HOKDeferredDeeplinking.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEBA96E54D6D9289F74A8F /* HOKDeferredDeeplinking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C2FA79C2F144E121B76ABAF2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BAE0E6127ACAF1ABF92160 /* SystemConfiguration.framework */; };
-		C4B7658506D2D22539DF5706 /* HOKSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 952414894D1B5B449D3FCF96 /* HOKSwizzling.h */; };
-		C9E1268A2D583FB5F92944D3 /* HOKHandlerBlockWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 327F431259D768BDF5E7EDFF /* HOKHandlerBlockWrapper.h */; };
-		CC546B510F193AC18C5AA490 /* HOKNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B46A6C32411A19909B0BE2 /* HOKNotificationObserver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CC87E70AE4E8DC17B72CC17C /* HOKObjectObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F5AC55EFD2CCC1DB250F44 /* HOKObjectObserver.h */; };
-		D1E44264B15717D8676D818E /* HOKDeeplinking+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA04B77D533E96C9C34171E /* HOKDeeplinking+Private.h */; };
-		D4AF8E27C060CCAA7D9EE96B /* HOKRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = FC864968042345085568AF5E /* HOKRoute.h */; };
-		DB21C4CF4428D2E7285FB780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB722298F0C9E56DD45DFD26 /* Foundation.framework */; };
-		DD49FCB10150B86A635CF05F /* HOKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DDBDF4BD831DCBDAEEE03E /* HOKLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E161E3C03F4780828DABDAB9 /* HOKRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B5584B069C0ED4C69D39A /* HOKRoute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E1906612CA5970B3117F1FAF /* HOKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E4E78CAB247F41E8BBED1 /* HOKUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E7E9DA2304A911BACD16D99B /* HOKNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B814D575E012D3B9495A7241 /* HOKNetworking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EAAAB39876DED723EEF18638 /* HOKApp.h in Headers */ = {isa = PBXBuildFile; fileRef = D31FDB35B5EA19A98D1D229E /* HOKApp.h */; };
-		F01A3FAD21CB29798B891159 /* HOKGZip.m in Sources */ = {isa = PBXBuildFile; fileRef = ADADA3CED1313BB5496D43A3 /* HOKGZip.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FC9F4E40ED1B21093969BC80 /* HOKNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE4E2CD4E6EC5B9DE6F95F0 /* HOKNetworkOperation.h */; };
+		09E99B4E500A427E78D564A0 /* HOKError.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F794BD625697930089A196 /* HOKError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0EB0EF5668FC77DAEFB93DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6A317C1BA3FD96A106B988 /* Foundation.framework */; };
+		111BDB0675220E0E7B101B58 /* HOKDeeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = AE025730E7711C66E06525C6 /* HOKDeeplink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1320BCE43C0DE738964273A1 /* HOKRouting.h in Headers */ = {isa = PBXBuildFile; fileRef = 00601E6EE690467907D19E0C /* HOKRouting.h */; };
+		181D5BEA2D6F0233B6B25137 /* HOKObjectObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BE02320796FFFCAA4F0754F7 /* HOKObjectObserver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		196FC34EFE5844DEC06E51AA /* HOKDeeplinking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F655F646B6612233080E1AD /* HOKDeeplinking.h */; };
+		1EBBDA2C8A66C965BC4D0927 /* HOKLinkGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E7DF4446467E09365FF27 /* HOKLinkGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22001B3EAABA5691F43D426F /* HOKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E523257FBC7AC0506661511B /* HOKLogger.h */; };
+		27F814927749722CE1630944 /* HOKNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 94713C72DC5F3B6BE28B7DA2 /* HOKNavigation.h */; };
+		2A6F08F2F18440666F15B24F /* HOKNetworkOperationQueue+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F953B5D22D5A15B778F3DC7 /* HOKNetworkOperationQueue+Private.h */; };
+		2E61FB799B5613B3FAAA3EC6 /* HOKObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = B05FEB27B877E92062CE41A8 /* HOKObserver.h */; };
+		3A86985640CDDBA0A04FD8F9 /* HOKNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 304D24C0B58D837DD249B841 /* HOKNotificationObserver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CD3A8CDE7ED0E9076CD841D /* HOKNetworkOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFC3C10C77E300B2D765BDB /* HOKNetworkOperationQueue.h */; };
+		4C8DAA6A4558F67D645742DF /* HOKURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9AB17D6FF90731A1D43E15 /* HOKURL.h */; };
+		5268DBA19CA37E4C361C3723 /* HOKObjectObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3478E97F6562264E409A16 /* HOKObjectObserver.h */; };
+		530944E07F038CF47AA38044 /* HOKRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C88FE6426C8047F68F30F052 /* HOKRoute.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B8BEAAAC56544B28F63FD95 /* HOKLinkGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C7E13992FC40518BEC89BF /* HOKLinkGenerator.h */; };
+		5C297758B9FBC5CD797E6260 /* HOKSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E52A08A63987DBA9905F48 /* HOKSwizzling.h */; };
+		5D98CCCE6E0138C3E9AFDDC3 /* HOKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D899FD92BACE513DA187E /* HOKUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65FE3B33622DBD253F6BC789 /* HOKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE91F1F6E4E9F752ABF244 /* HOKObserver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66423BD8DC3AF0010C5A3349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6A317C1BA3FD96A106B988 /* Foundation.framework */; };
+		692C6D55D3E4A26003C2C26C /* HOKGZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D492AFFD0F5B3F705553D1 /* HOKGZip.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B454B533B79772B75CD988C /* Hoko.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C46A6F1873514E300D5546F /* Hoko.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B7738D93FC7D0C07B21A26D /* HOKDeeplinking.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FFC8290A94688512E31E1E /* HOKDeeplinking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73166A62C3B66D0A90369D2D /* HOKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1366A1ADA47287DB9E08824A /* HOKDevice.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		740566D9D0CEE86C628F596A /* HOKDeferredDeeplinking.h in Headers */ = {isa = PBXBuildFile; fileRef = 55542EF7DDF6A3AD48341528 /* HOKDeferredDeeplinking.h */; };
+		79E944C008F28A3AFDF747AC /* HOKNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A1386D111D5E06AF7745C40F /* HOKNetworking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7DB1C0749F8EB79D5CE1DEBF /* HOKError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC28F62DFAAF9A5D8675A04 /* HOKError.h */; };
+		802DB2FCD905E5B5471109FF /* HOKNetworkOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0100A790F1D5E3C8251D9559 /* HOKNetworkOperation.h */; };
+		8828E36EDFD7C2FA936DFCDA /* HOKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E79D04D01D4CF88B2F22D5B /* HOKNetworkOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C4E3C7EFE51D16C2500CD60 /* HOKNotificationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 316BEB7D5A924A429D27A719 /* HOKNotificationObserver.h */; };
+		90359F19B4631480E7450531 /* HOKRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = C78B9491569406CF8773C1A4 /* HOKRoute.h */; };
+		95D4D5951E15AF24B180B002 /* HOKRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = F69EFF024DA5F882C07D54D7 /* HOKRouting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97B6303CA4AEFE339F4B6C1D /* HOKResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB834DA1D9AC7140E37EA82 /* HOKResolver.h */; };
+		9C1F09131608A5B577640A79 /* HOKDeferredDeeplinking.m in Sources */ = {isa = PBXBuildFile; fileRef = B4262F4461DF44F4DA6D0A01 /* HOKDeferredDeeplinking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A0F6250860F1487A4D895B7F /* HOKDeeplinking+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B10682D255C47B29BB5F913 /* HOKDeeplinking+Private.h */; };
+		A53B82059903F1256FC8FF33 /* HOKDeeplink.h in Headers */ = {isa = PBXBuildFile; fileRef = 476B80072FE743F6B35A7139 /* HOKDeeplink.h */; };
+		A769DBF0D3542EA35DCE7F2D /* Hoko.h in Headers */ = {isa = PBXBuildFile; fileRef = E153D9FA3CFF2F054B7E0A3E /* Hoko.h */; };
+		A968FD63B6FF630B1A35ABF7 /* HOKHandlerBlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B192F2186F67065553EBCC37 /* HOKHandlerBlockWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B8B47DA6B247567A50CB3F20 /* HOKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 89445F8AA2F266C66B570050 /* HOKNetworking.h */; };
+		B901E7DECBCCBDD46D1C1B32 /* Hoko+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EC29A08B11CCA0440545BA /* Hoko+Private.h */; };
+		BD6C47A26CC8CCFFAD5DDA15 /* HOKNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFA29C17367A6D1B2FC40C8 /* HOKNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C22993C5F72824583C4B4EB0 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B312A31E4D16462794EB78 /* Pods-dummy.m */; };
+		C30F23C95D902F0C68AFA37B /* HOKApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C49A585CBC3396D6102C9E /* HOKApp.h */; };
+		C4F8A63D638F657A937CC8C2 /* HOKHandlerBlockWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E951B7A72A193AFE7121E7E /* HOKHandlerBlockWrapper.h */; };
+		C6FC0631450102F52DD5FE8A /* HOKSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 322402F9F7C46174C5D0B869 /* HOKSwizzling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC525BE700FC93D566C2B0CB /* HOKNetworkOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CC03C38B0D5A140988F4E /* HOKNetworkOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD787F69E418D7A1682A76CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD37A0DFE4CC530330E713D0 /* SystemConfiguration.framework */; };
+		D3B9C2223DAF3238F7A9A706 /* HOKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 572FFC9FF81CA79C263D12A7 /* HOKURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DC40FE22AC4BBACB5FA73523 /* HOKHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3B92CAE78FDC030F1C81BC /* HOKHandling.h */; };
+		DF19FE685B8CE87753FFC76D /* HOKResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6661270FA77B34C43695E9 /* HOKResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E33BEA22DD217F90CDD76679 /* HOKGZip.h in Headers */ = {isa = PBXBuildFile; fileRef = AD49D91784AA44E479DB804D /* HOKGZip.h */; };
+		E39103B5023CC201A3D67B54 /* HOKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F106C4FE1894DF64D2BE975A /* HOKDevice.h */; };
+		E5F06FD0ADD5A6B95B4FDD63 /* HOKHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1AA48DE0EF60DF06704AB0 /* HOKHandling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E82EDFD1E855431289DA7AD9 /* HOKVersionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AA08C9F2BA035345EFD7B /* HOKVersionChecker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ECDD44FA14BD4D5C875A2811 /* HOKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C704B1E669F9A975609CF85 /* HOKLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFF892F54CF2F168A87AEFFA /* Hoko+Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3130DC3AC322FEE438C45766 /* Hoko+Macros.h */; };
+		F122F6A8ACA22E827376173B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FCB1256743BD8DDC404791 /* UIKit.framework */; };
+		F1A8DFC43C6DC28A6633A3F4 /* HOKApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CCF054BE54523B419571F2 /* HOKApp.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2106499B80A194B96AB0415 /* HOKVersionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A91AB27E21CA6B48DF84D25 /* HOKVersionChecker.h */; };
+		F81949363DD523ED0AC5FCF3 /* Pods-Hoko-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF31B1D584CAAFA76649570 /* Pods-Hoko-dummy.m */; };
+		F96BB775B111431F06FC7334 /* HOKDeeplink+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C44458AEB02FC3375AEC252 /* HOKDeeplink+Private.h */; };
+		FFFEAD3954C5D30ED73F0444 /* HOKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F983D10CE3EF69FCFD2699 /* HOKUtils.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85B49CDC3DF9FBB60EC02B1D /* PBXContainerItemProxy */ = {
+		B1ED22D58DFFA5D949F9E108 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DE260A6AA233A2CE89CE6525 /* Project object */;
+			containerPortal = 37204BDBD7E266D3D4736A4D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14DAA259D87591474C0DDBE2;
+			remoteGlobalIDString = 821EA3442FB9D76AD6E5FE14;
 			remoteInfo = "Pods-Hoko";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073DC493CB69D9E97C9C35A6 /* Hoko+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Hoko+Private.h"; path = "Hoko/Hoko+Private.h"; sourceTree = "<group>"; };
-		088B52B60AC69DB2A8456423 /* HOKGZip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKGZip.h; path = Hoko/HOKGZip.h; sourceTree = "<group>"; };
-		088E914790BB2AA35243544C /* HOKDeeplinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDeeplinking.h; path = Hoko/HOKDeeplinking.h; sourceTree = "<group>"; };
-		08A9701A54070474A88C4ED0 /* HOKNetworkOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNetworkOperation.m; path = Hoko/HOKNetworkOperation.m; sourceTree = "<group>"; };
-		0FCCB52EB096CCEF12ACADBC /* HOKObjectObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKObjectObserver.m; path = Hoko/HOKObjectObserver.m; sourceTree = "<group>"; };
-		129EA02A4DD17AE7384F449D /* HOKDeeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDeeplink.h; path = Hoko/HOKDeeplink.h; sourceTree = "<group>"; };
-		143837D1149EB233CF7E4947 /* HOKDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDevice.m; path = Hoko/HOKDevice.m; sourceTree = "<group>"; };
-		1755FFE837F0AFE0F1AF0302 /* HOKObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKObserver.m; path = Hoko/HOKObserver.m; sourceTree = "<group>"; };
-		188B5584B069C0ED4C69D39A /* HOKRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKRoute.m; path = Hoko/HOKRoute.m; sourceTree = "<group>"; };
-		193D49F98BBA5BAEBA2FF165 /* HOKDeeplink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDeeplink.m; path = Hoko/HOKDeeplink.m; sourceTree = "<group>"; };
-		1D8FEDE058CA5D649CDCE7B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EC6A7FDB678825721D7CF9D /* HOKRouting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKRouting.m; path = Hoko/HOKRouting.m; sourceTree = "<group>"; };
-		222D69B49A755432D2AA4456 /* HOKDeeplinking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDeeplinking.m; path = Hoko/HOKDeeplinking.m; sourceTree = "<group>"; };
-		2544160CBE874BDB5BFC9EB8 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25ACD74A0A3810DABB119D4C /* HOKNotificationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNotificationObserver.h; path = Hoko/HOKNotificationObserver.h; sourceTree = "<group>"; };
-		25B46A6C32411A19909B0BE2 /* HOKNotificationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNotificationObserver.m; path = Hoko/HOKNotificationObserver.m; sourceTree = "<group>"; };
-		2DAFE7308DAF2CFB50922A37 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		2EE7E9BC755F1F27BEEB448A /* HOKResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKResolver.h; path = Hoko/HOKResolver.h; sourceTree = "<group>"; };
-		327F431259D768BDF5E7EDFF /* HOKHandlerBlockWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKHandlerBlockWrapper.h; path = Hoko/HOKHandlerBlockWrapper.h; sourceTree = "<group>"; };
-		34BAE0E6127ACAF1ABF92160 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		3A2DF637E44BEF405C130028 /* HOKRouting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKRouting.h; path = Hoko/HOKRouting.h; sourceTree = "<group>"; };
-		3EC17BEA723D64BF23DCB873 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FBB50CF2B732114E4BD19EF /* Pods-Hoko-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hoko-dummy.m"; sourceTree = "<group>"; };
-		44EF48C2C3A1B9EA4895F498 /* HOKNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNetworking.h; path = Hoko/HOKNetworking.h; sourceTree = "<group>"; };
-		46A506C4E6726E6BBEC2AE36 /* Hoko.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Hoko.m; path = Hoko/Hoko.m; sourceTree = "<group>"; };
-		4C95BA5DD7C50DF0B010B3C6 /* HOKVersionChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKVersionChecker.m; path = Hoko/HOKVersionChecker.m; sourceTree = "<group>"; };
-		51EC6268CF0B5CA06DB421F2 /* HOKURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKURL.m; path = Hoko/HOKURL.m; sourceTree = "<group>"; };
-		5340D649186BAC3CFEAB5704 /* HOKHandlerBlockWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKHandlerBlockWrapper.m; path = Hoko/HOKHandlerBlockWrapper.m; sourceTree = "<group>"; };
-		572140CAE84997D896141E42 /* Pods-Hoko-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hoko-Private.xcconfig"; sourceTree = "<group>"; };
-		597E4E78CAB247F41E8BBED1 /* HOKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKUtils.m; path = Hoko/HOKUtils.m; sourceTree = "<group>"; };
-		5A3F771948555F9E8222249C /* HOKObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKObserver.h; path = Hoko/HOKObserver.h; sourceTree = "<group>"; };
-		5C14E7DE60D6BA0D3601469C /* HOKDeeplink+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HOKDeeplink+Private.h"; path = "Hoko/HOKDeeplink+Private.h"; sourceTree = "<group>"; };
-		674BCCF3423E8B13D0E97161 /* HOKNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNavigation.m; path = Hoko/HOKNavigation.m; sourceTree = "<group>"; };
-		6E0BCD129D19719732983628 /* HOKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDevice.h; path = Hoko/HOKDevice.h; sourceTree = "<group>"; };
-		6F3CC9888FEF6AE51B198C27 /* HOKLinkGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKLinkGenerator.m; path = Hoko/HOKLinkGenerator.m; sourceTree = "<group>"; };
-		70085C82FDFC2BD4B971F7C2 /* HOKURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKURL.h; path = Hoko/HOKURL.h; sourceTree = "<group>"; };
-		71DDBDF4BD831DCBDAEEE03E /* HOKLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKLogger.m; path = Hoko/HOKLogger.m; sourceTree = "<group>"; };
-		7AD6F0A8E99A69AB41518A51 /* HOKVersionChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKVersionChecker.h; path = Hoko/HOKVersionChecker.h; sourceTree = "<group>"; };
-		7E0171615BCFC37496B16AC1 /* libPods-Hoko.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hoko.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8238B35B4D0114CC9212C507 /* HOKNetworkOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNetworkOperationQueue.h; path = Hoko/HOKNetworkOperationQueue.h; sourceTree = "<group>"; };
-		85196BC4CBF3F638AAEBA12D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		85D0385FEC8019989A0CC56C /* HOKLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKLogger.h; path = Hoko/HOKLogger.h; sourceTree = "<group>"; };
-		8646A0033755B07928BDED02 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		91DC975740F8487E8B61740D /* HOKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKError.h; path = Hoko/HOKError.h; sourceTree = "<group>"; };
-		952414894D1B5B449D3FCF96 /* HOKSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKSwizzling.h; path = Hoko/HOKSwizzling.h; sourceTree = "<group>"; };
-		973594C683DD70159C357065 /* Pods-Hoko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hoko.xcconfig"; sourceTree = "<group>"; };
-		A03D370E82BB57FBF7F93625 /* HOKResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKResolver.m; path = Hoko/HOKResolver.m; sourceTree = "<group>"; };
-		A854726AB93D21458928D0CF /* HOKHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKHandling.h; path = Hoko/HOKHandling.h; sourceTree = "<group>"; };
-		A9EEBA96E54D6D9289F74A8F /* HOKDeferredDeeplinking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDeferredDeeplinking.m; path = Hoko/HOKDeferredDeeplinking.m; sourceTree = "<group>"; };
-		ACE4E2CD4E6EC5B9DE6F95F0 /* HOKNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNetworkOperation.h; path = Hoko/HOKNetworkOperation.h; sourceTree = "<group>"; };
-		AD26E4E1254454B4C2A3DDD2 /* HOKSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKSwizzling.m; path = Hoko/HOKSwizzling.m; sourceTree = "<group>"; };
-		ADADA3CED1313BB5496D43A3 /* HOKGZip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKGZip.m; path = Hoko/HOKGZip.m; sourceTree = "<group>"; };
-		B7ECD3F2B922A8ABD8FD7C25 /* HOKNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNavigation.h; path = Hoko/HOKNavigation.h; sourceTree = "<group>"; };
-		B7F31A62155F7ABCE1F8A621 /* Hoko.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Hoko.h; path = Hoko/Hoko.h; sourceTree = "<group>"; };
-		B814D575E012D3B9495A7241 /* HOKNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNetworking.m; path = Hoko/HOKNetworking.m; sourceTree = "<group>"; };
-		B86729B7D2A3168D2E2790F2 /* Hoko+Nullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Hoko+Nullability.h"; path = "Hoko/Hoko+Nullability.h"; sourceTree = "<group>"; };
-		BA8555E742DFA3378024FC38 /* HOKApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKApp.m; path = Hoko/HOKApp.m; sourceTree = "<group>"; };
-		BF88C455DF65AED0AFA57D71 /* HOKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKUtils.h; path = Hoko/HOKUtils.h; sourceTree = "<group>"; };
-		BFD0B96D52EBA1A8FA5F4F25 /* HOKNetworkOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNetworkOperationQueue.m; path = Hoko/HOKNetworkOperationQueue.m; sourceTree = "<group>"; };
-		C28E265B35623D7528F5C822 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		C2F9A7FC6620E4C3C9251456 /* HOKLinkGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKLinkGenerator.h; path = Hoko/HOKLinkGenerator.h; sourceTree = "<group>"; };
-		CB134AE8F3AE782C5905A071 /* HOKDeferredDeeplinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDeferredDeeplinking.h; path = Hoko/HOKDeferredDeeplinking.h; sourceTree = "<group>"; };
-		CB722298F0C9E56DD45DFD26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D31FDB35B5EA19A98D1D229E /* HOKApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKApp.h; path = Hoko/HOKApp.h; sourceTree = "<group>"; };
-		D682DF90E6B61D8A1F2F5E38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DDDE05FD2B6B717A0ED3DD30 /* HOKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKError.m; path = Hoko/HOKError.m; sourceTree = "<group>"; };
-		DFA04B77D533E96C9C34171E /* HOKDeeplinking+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HOKDeeplinking+Private.h"; path = "Hoko/HOKDeeplinking+Private.h"; sourceTree = "<group>"; };
-		E18022AA42C89C523815BB5F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E1A306E1EFA97DDE7E11F755 /* Pods-Hoko-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hoko-prefix.pch"; sourceTree = "<group>"; };
-		E1F5AC55EFD2CCC1DB250F44 /* HOKObjectObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKObjectObserver.h; path = Hoko/HOKObjectObserver.h; sourceTree = "<group>"; };
-		E71DFBCE4D84CF0FC2B1A47D /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		F43A7DAFD0DDC1A9DD5D6CAF /* HOKHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKHandling.m; path = Hoko/HOKHandling.m; sourceTree = "<group>"; };
-		FB8382E3F059D19330E057C2 /* HOKNetworkOperationQueue+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HOKNetworkOperationQueue+Private.h"; path = "Hoko/HOKNetworkOperationQueue+Private.h"; sourceTree = "<group>"; };
-		FC864968042345085568AF5E /* HOKRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKRoute.h; path = Hoko/HOKRoute.h; sourceTree = "<group>"; };
+		00601E6EE690467907D19E0C /* HOKRouting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKRouting.h; path = Hoko/HOKRouting.h; sourceTree = "<group>"; };
+		0100A790F1D5E3C8251D9559 /* HOKNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNetworkOperation.h; path = Hoko/HOKNetworkOperation.h; sourceTree = "<group>"; };
+		01FCB1256743BD8DDC404791 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		032067027275BA995C936576 /* Pods-Hoko-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hoko-Private.xcconfig"; sourceTree = "<group>"; };
+		07CE91F1F6E4E9F752ABF244 /* HOKObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKObserver.m; path = Hoko/HOKObserver.m; sourceTree = "<group>"; };
+		09EC29A08B11CCA0440545BA /* Hoko+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Hoko+Private.h"; path = "Hoko/Hoko+Private.h"; sourceTree = "<group>"; };
+		0AA90C619E80B4DF53A2EACD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0AFA29C17367A6D1B2FC40C8 /* HOKNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNavigation.m; path = Hoko/HOKNavigation.m; sourceTree = "<group>"; };
+		0C46A6F1873514E300D5546F /* Hoko.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Hoko.m; path = Hoko/Hoko.m; sourceTree = "<group>"; };
+		0FB834DA1D9AC7140E37EA82 /* HOKResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKResolver.h; path = Hoko/HOKResolver.h; sourceTree = "<group>"; };
+		1366A1ADA47287DB9E08824A /* HOKDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDevice.m; path = Hoko/HOKDevice.m; sourceTree = "<group>"; };
+		1F655F646B6612233080E1AD /* HOKDeeplinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDeeplinking.h; path = Hoko/HOKDeeplinking.h; sourceTree = "<group>"; };
+		233F34E3430A0517E0DB110D /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		2BF31B1D584CAAFA76649570 /* Pods-Hoko-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hoko-dummy.m"; sourceTree = "<group>"; };
+		2D0B0991E6BD5D318AA8826F /* Pods-Hoko-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hoko-prefix.pch"; sourceTree = "<group>"; };
+		2F953B5D22D5A15B778F3DC7 /* HOKNetworkOperationQueue+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HOKNetworkOperationQueue+Private.h"; path = "Hoko/HOKNetworkOperationQueue+Private.h"; sourceTree = "<group>"; };
+		304D24C0B58D837DD249B841 /* HOKNotificationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNotificationObserver.m; path = Hoko/HOKNotificationObserver.m; sourceTree = "<group>"; };
+		3130DC3AC322FEE438C45766 /* Hoko+Macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Hoko+Macros.h"; path = "Hoko/Hoko+Macros.h"; sourceTree = "<group>"; };
+		316BEB7D5A924A429D27A719 /* HOKNotificationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNotificationObserver.h; path = Hoko/HOKNotificationObserver.h; sourceTree = "<group>"; };
+		322402F9F7C46174C5D0B869 /* HOKSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKSwizzling.m; path = Hoko/HOKSwizzling.m; sourceTree = "<group>"; };
+		328AA08C9F2BA035345EFD7B /* HOKVersionChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKVersionChecker.m; path = Hoko/HOKVersionChecker.m; sourceTree = "<group>"; };
+		340BD342B5B8FEA934493379 /* libPods-Hoko.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hoko.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A91AB27E21CA6B48DF84D25 /* HOKVersionChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKVersionChecker.h; path = Hoko/HOKVersionChecker.h; sourceTree = "<group>"; };
+		3B10682D255C47B29BB5F913 /* HOKDeeplinking+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HOKDeeplinking+Private.h"; path = "Hoko/HOKDeeplinking+Private.h"; sourceTree = "<group>"; };
+		3C704B1E669F9A975609CF85 /* HOKLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKLogger.m; path = Hoko/HOKLogger.m; sourceTree = "<group>"; };
+		3D9AB17D6FF90731A1D43E15 /* HOKURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKURL.h; path = Hoko/HOKURL.h; sourceTree = "<group>"; };
+		476B80072FE743F6B35A7139 /* HOKDeeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDeeplink.h; path = Hoko/HOKDeeplink.h; sourceTree = "<group>"; };
+		51F983D10CE3EF69FCFD2699 /* HOKUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKUtils.h; path = Hoko/HOKUtils.h; sourceTree = "<group>"; };
+		55542EF7DDF6A3AD48341528 /* HOKDeferredDeeplinking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDeferredDeeplinking.h; path = Hoko/HOKDeferredDeeplinking.h; sourceTree = "<group>"; };
+		572FFC9FF81CA79C263D12A7 /* HOKURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKURL.m; path = Hoko/HOKURL.m; sourceTree = "<group>"; };
+		57D492AFFD0F5B3F705553D1 /* HOKGZip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKGZip.m; path = Hoko/HOKGZip.m; sourceTree = "<group>"; };
+		59CCF054BE54523B419571F2 /* HOKApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKApp.m; path = Hoko/HOKApp.m; sourceTree = "<group>"; };
+		5A464A3B2A61E9F1BF7E5F2A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4884D882DC90D7682216DE /* Pods-Hoko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hoko.xcconfig"; sourceTree = "<group>"; };
+		5EFC3C10C77E300B2D765BDB /* HOKNetworkOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNetworkOperationQueue.h; path = Hoko/HOKNetworkOperationQueue.h; sourceTree = "<group>"; };
+		5F0E7DF4446467E09365FF27 /* HOKLinkGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKLinkGenerator.m; path = Hoko/HOKLinkGenerator.m; sourceTree = "<group>"; };
+		60C7E13992FC40518BEC89BF /* HOKLinkGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKLinkGenerator.h; path = Hoko/HOKLinkGenerator.h; sourceTree = "<group>"; };
+		62F794BD625697930089A196 /* HOKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKError.m; path = Hoko/HOKError.m; sourceTree = "<group>"; };
+		6BC28F62DFAAF9A5D8675A04 /* HOKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKError.h; path = Hoko/HOKError.h; sourceTree = "<group>"; };
+		6C44458AEB02FC3375AEC252 /* HOKDeeplink+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HOKDeeplink+Private.h"; path = "Hoko/HOKDeeplink+Private.h"; sourceTree = "<group>"; };
+		6CCEBFA862C6ACEDBB1AA5B0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		70C49A585CBC3396D6102C9E /* HOKApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKApp.h; path = Hoko/HOKApp.h; sourceTree = "<group>"; };
+		7C1EFAFA04C387AB411DD03F /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7F3478E97F6562264E409A16 /* HOKObjectObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKObjectObserver.h; path = Hoko/HOKObjectObserver.h; sourceTree = "<group>"; };
+		89445F8AA2F266C66B570050 /* HOKNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNetworking.h; path = Hoko/HOKNetworking.h; sourceTree = "<group>"; };
+		8C6661270FA77B34C43695E9 /* HOKResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKResolver.m; path = Hoko/HOKResolver.m; sourceTree = "<group>"; };
+		8DFCD5528110B729F79D7573 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		8E3B92CAE78FDC030F1C81BC /* HOKHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKHandling.h; path = Hoko/HOKHandling.h; sourceTree = "<group>"; };
+		8F05F60065B4A1CA2A28C863 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91FFC8290A94688512E31E1E /* HOKDeeplinking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDeeplinking.m; path = Hoko/HOKDeeplinking.m; sourceTree = "<group>"; };
+		939CC03C38B0D5A140988F4E /* HOKNetworkOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNetworkOperationQueue.m; path = Hoko/HOKNetworkOperationQueue.m; sourceTree = "<group>"; };
+		94713C72DC5F3B6BE28B7DA2 /* HOKNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKNavigation.h; path = Hoko/HOKNavigation.h; sourceTree = "<group>"; };
+		9E79D04D01D4CF88B2F22D5B /* HOKNetworkOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNetworkOperation.m; path = Hoko/HOKNetworkOperation.m; sourceTree = "<group>"; };
+		9E951B7A72A193AFE7121E7E /* HOKHandlerBlockWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKHandlerBlockWrapper.h; path = Hoko/HOKHandlerBlockWrapper.h; sourceTree = "<group>"; };
+		A1386D111D5E06AF7745C40F /* HOKNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKNetworking.m; path = Hoko/HOKNetworking.m; sourceTree = "<group>"; };
+		AA6A317C1BA3FD96A106B988 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC1AA48DE0EF60DF06704AB0 /* HOKHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKHandling.m; path = Hoko/HOKHandling.m; sourceTree = "<group>"; };
+		AD49D91784AA44E479DB804D /* HOKGZip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKGZip.h; path = Hoko/HOKGZip.h; sourceTree = "<group>"; };
+		AE025730E7711C66E06525C6 /* HOKDeeplink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDeeplink.m; path = Hoko/HOKDeeplink.m; sourceTree = "<group>"; };
+		B05FEB27B877E92062CE41A8 /* HOKObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKObserver.h; path = Hoko/HOKObserver.h; sourceTree = "<group>"; };
+		B192F2186F67065553EBCC37 /* HOKHandlerBlockWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKHandlerBlockWrapper.m; path = Hoko/HOKHandlerBlockWrapper.m; sourceTree = "<group>"; };
+		B4262F4461DF44F4DA6D0A01 /* HOKDeferredDeeplinking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKDeferredDeeplinking.m; path = Hoko/HOKDeferredDeeplinking.m; sourceTree = "<group>"; };
+		BE02320796FFFCAA4F0754F7 /* HOKObjectObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKObjectObserver.m; path = Hoko/HOKObjectObserver.m; sourceTree = "<group>"; };
+		C2E52A08A63987DBA9905F48 /* HOKSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKSwizzling.h; path = Hoko/HOKSwizzling.h; sourceTree = "<group>"; };
+		C77D899FD92BACE513DA187E /* HOKUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKUtils.m; path = Hoko/HOKUtils.m; sourceTree = "<group>"; };
+		C78B9491569406CF8773C1A4 /* HOKRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKRoute.h; path = Hoko/HOKRoute.h; sourceTree = "<group>"; };
+		C88FE6426C8047F68F30F052 /* HOKRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKRoute.m; path = Hoko/HOKRoute.m; sourceTree = "<group>"; };
+		CD37A0DFE4CC530330E713D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D8D336B1264514A405FBE9E3 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		E153D9FA3CFF2F054B7E0A3E /* Hoko.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Hoko.h; path = Hoko/Hoko.h; sourceTree = "<group>"; };
+		E3B312A31E4D16462794EB78 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E523257FBC7AC0506661511B /* HOKLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKLogger.h; path = Hoko/HOKLogger.h; sourceTree = "<group>"; };
+		F106C4FE1894DF64D2BE975A /* HOKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOKDevice.h; path = Hoko/HOKDevice.h; sourceTree = "<group>"; };
+		F69EFF024DA5F882C07D54D7 /* HOKRouting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HOKRouting.m; path = Hoko/HOKRouting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1743A5E20B2291AB38389890 /* Frameworks */ = {
+		0059CA0663D56C5C7DB4E4B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F329235156B5C6F4B0F27E8 /* Foundation.framework in Frameworks */,
+				66423BD8DC3AF0010C5A3349 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC540D680CCEC1AFEC46B2E9 /* Frameworks */ = {
+		802D78C01745318A5D548E6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB21C4CF4428D2E7285FB780 /* Foundation.framework in Frameworks */,
-				C2FA79C2F144E121B76ABAF2 /* SystemConfiguration.framework in Frameworks */,
-				7A5C4B25AC80E4FD40A03DAF /* UIKit.framework in Frameworks */,
+				0EB0EF5668FC77DAEFB93DAC /* Foundation.framework in Frameworks */,
+				CD787F69E418D7A1682A76CD /* SystemConfiguration.framework in Frameworks */,
+				F122F6A8ACA22E827376173B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0257E03307E4692BEB24613C /* Frameworks */ = {
+		0E516CDE6B07BD2545A54042 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52F4F98766916E4B81FC5C1C /* iOS */,
+				5A464A3B2A61E9F1BF7E5F2A /* libPods.a */,
+				340BD342B5B8FEA934493379 /* libPods-Hoko.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1C436E93F0DCE5CAE8C7F9E3 = {
+		4AD4A20A8097E3480D067EEF /* Hoko */ = {
 			isa = PBXGroup;
 			children = (
-				E18022AA42C89C523815BB5F /* Podfile */,
-				0257E03307E4692BEB24613C /* Frameworks */,
-				3B90DE771BDEA42652B4A641 /* Pods */,
-				8C1BD3FAA18F353AF9A9679D /* Products */,
-				1EECFF286FD498F883B6EA30 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		1EECFF286FD498F883B6EA30 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6637003C8F8A77B32B6E954E /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3B90DE771BDEA42652B4A641 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3ECB77D7B742C6287500850F /* Hoko */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3ECB77D7B742C6287500850F /* Hoko */ = {
-			isa = PBXGroup;
-			children = (
-				D31FDB35B5EA19A98D1D229E /* HOKApp.h */,
-				BA8555E742DFA3378024FC38 /* HOKApp.m */,
-				129EA02A4DD17AE7384F449D /* HOKDeeplink.h */,
-				193D49F98BBA5BAEBA2FF165 /* HOKDeeplink.m */,
-				5C14E7DE60D6BA0D3601469C /* HOKDeeplink+Private.h */,
-				088E914790BB2AA35243544C /* HOKDeeplinking.h */,
-				222D69B49A755432D2AA4456 /* HOKDeeplinking.m */,
-				DFA04B77D533E96C9C34171E /* HOKDeeplinking+Private.h */,
-				CB134AE8F3AE782C5905A071 /* HOKDeferredDeeplinking.h */,
-				A9EEBA96E54D6D9289F74A8F /* HOKDeferredDeeplinking.m */,
-				6E0BCD129D19719732983628 /* HOKDevice.h */,
-				143837D1149EB233CF7E4947 /* HOKDevice.m */,
-				91DC975740F8487E8B61740D /* HOKError.h */,
-				DDDE05FD2B6B717A0ED3DD30 /* HOKError.m */,
-				088B52B60AC69DB2A8456423 /* HOKGZip.h */,
-				ADADA3CED1313BB5496D43A3 /* HOKGZip.m */,
-				327F431259D768BDF5E7EDFF /* HOKHandlerBlockWrapper.h */,
-				5340D649186BAC3CFEAB5704 /* HOKHandlerBlockWrapper.m */,
-				A854726AB93D21458928D0CF /* HOKHandling.h */,
-				F43A7DAFD0DDC1A9DD5D6CAF /* HOKHandling.m */,
-				C2F9A7FC6620E4C3C9251456 /* HOKLinkGenerator.h */,
-				6F3CC9888FEF6AE51B198C27 /* HOKLinkGenerator.m */,
-				85D0385FEC8019989A0CC56C /* HOKLogger.h */,
-				71DDBDF4BD831DCBDAEEE03E /* HOKLogger.m */,
-				B7ECD3F2B922A8ABD8FD7C25 /* HOKNavigation.h */,
-				674BCCF3423E8B13D0E97161 /* HOKNavigation.m */,
-				ACE4E2CD4E6EC5B9DE6F95F0 /* HOKNetworkOperation.h */,
-				08A9701A54070474A88C4ED0 /* HOKNetworkOperation.m */,
-				8238B35B4D0114CC9212C507 /* HOKNetworkOperationQueue.h */,
-				BFD0B96D52EBA1A8FA5F4F25 /* HOKNetworkOperationQueue.m */,
-				FB8382E3F059D19330E057C2 /* HOKNetworkOperationQueue+Private.h */,
-				44EF48C2C3A1B9EA4895F498 /* HOKNetworking.h */,
-				B814D575E012D3B9495A7241 /* HOKNetworking.m */,
-				25ACD74A0A3810DABB119D4C /* HOKNotificationObserver.h */,
-				25B46A6C32411A19909B0BE2 /* HOKNotificationObserver.m */,
-				E1F5AC55EFD2CCC1DB250F44 /* HOKObjectObserver.h */,
-				0FCCB52EB096CCEF12ACADBC /* HOKObjectObserver.m */,
-				5A3F771948555F9E8222249C /* HOKObserver.h */,
-				1755FFE837F0AFE0F1AF0302 /* HOKObserver.m */,
-				2EE7E9BC755F1F27BEEB448A /* HOKResolver.h */,
-				A03D370E82BB57FBF7F93625 /* HOKResolver.m */,
-				FC864968042345085568AF5E /* HOKRoute.h */,
-				188B5584B069C0ED4C69D39A /* HOKRoute.m */,
-				3A2DF637E44BEF405C130028 /* HOKRouting.h */,
-				1EC6A7FDB678825721D7CF9D /* HOKRouting.m */,
-				952414894D1B5B449D3FCF96 /* HOKSwizzling.h */,
-				AD26E4E1254454B4C2A3DDD2 /* HOKSwizzling.m */,
-				70085C82FDFC2BD4B971F7C2 /* HOKURL.h */,
-				51EC6268CF0B5CA06DB421F2 /* HOKURL.m */,
-				BF88C455DF65AED0AFA57D71 /* HOKUtils.h */,
-				597E4E78CAB247F41E8BBED1 /* HOKUtils.m */,
-				7AD6F0A8E99A69AB41518A51 /* HOKVersionChecker.h */,
-				4C95BA5DD7C50DF0B010B3C6 /* HOKVersionChecker.m */,
-				B7F31A62155F7ABCE1F8A621 /* Hoko.h */,
-				46A506C4E6726E6BBEC2AE36 /* Hoko.m */,
-				B86729B7D2A3168D2E2790F2 /* Hoko+Nullability.h */,
-				073DC493CB69D9E97C9C35A6 /* Hoko+Private.h */,
-				6DA30E036F5B029ADEC9A1F5 /* Support Files */,
+				70C49A585CBC3396D6102C9E /* HOKApp.h */,
+				59CCF054BE54523B419571F2 /* HOKApp.m */,
+				476B80072FE743F6B35A7139 /* HOKDeeplink.h */,
+				AE025730E7711C66E06525C6 /* HOKDeeplink.m */,
+				6C44458AEB02FC3375AEC252 /* HOKDeeplink+Private.h */,
+				1F655F646B6612233080E1AD /* HOKDeeplinking.h */,
+				91FFC8290A94688512E31E1E /* HOKDeeplinking.m */,
+				3B10682D255C47B29BB5F913 /* HOKDeeplinking+Private.h */,
+				55542EF7DDF6A3AD48341528 /* HOKDeferredDeeplinking.h */,
+				B4262F4461DF44F4DA6D0A01 /* HOKDeferredDeeplinking.m */,
+				F106C4FE1894DF64D2BE975A /* HOKDevice.h */,
+				1366A1ADA47287DB9E08824A /* HOKDevice.m */,
+				6BC28F62DFAAF9A5D8675A04 /* HOKError.h */,
+				62F794BD625697930089A196 /* HOKError.m */,
+				AD49D91784AA44E479DB804D /* HOKGZip.h */,
+				57D492AFFD0F5B3F705553D1 /* HOKGZip.m */,
+				9E951B7A72A193AFE7121E7E /* HOKHandlerBlockWrapper.h */,
+				B192F2186F67065553EBCC37 /* HOKHandlerBlockWrapper.m */,
+				8E3B92CAE78FDC030F1C81BC /* HOKHandling.h */,
+				AC1AA48DE0EF60DF06704AB0 /* HOKHandling.m */,
+				60C7E13992FC40518BEC89BF /* HOKLinkGenerator.h */,
+				5F0E7DF4446467E09365FF27 /* HOKLinkGenerator.m */,
+				E523257FBC7AC0506661511B /* HOKLogger.h */,
+				3C704B1E669F9A975609CF85 /* HOKLogger.m */,
+				94713C72DC5F3B6BE28B7DA2 /* HOKNavigation.h */,
+				0AFA29C17367A6D1B2FC40C8 /* HOKNavigation.m */,
+				0100A790F1D5E3C8251D9559 /* HOKNetworkOperation.h */,
+				9E79D04D01D4CF88B2F22D5B /* HOKNetworkOperation.m */,
+				5EFC3C10C77E300B2D765BDB /* HOKNetworkOperationQueue.h */,
+				939CC03C38B0D5A140988F4E /* HOKNetworkOperationQueue.m */,
+				2F953B5D22D5A15B778F3DC7 /* HOKNetworkOperationQueue+Private.h */,
+				89445F8AA2F266C66B570050 /* HOKNetworking.h */,
+				A1386D111D5E06AF7745C40F /* HOKNetworking.m */,
+				316BEB7D5A924A429D27A719 /* HOKNotificationObserver.h */,
+				304D24C0B58D837DD249B841 /* HOKNotificationObserver.m */,
+				7F3478E97F6562264E409A16 /* HOKObjectObserver.h */,
+				BE02320796FFFCAA4F0754F7 /* HOKObjectObserver.m */,
+				B05FEB27B877E92062CE41A8 /* HOKObserver.h */,
+				07CE91F1F6E4E9F752ABF244 /* HOKObserver.m */,
+				0FB834DA1D9AC7140E37EA82 /* HOKResolver.h */,
+				8C6661270FA77B34C43695E9 /* HOKResolver.m */,
+				C78B9491569406CF8773C1A4 /* HOKRoute.h */,
+				C88FE6426C8047F68F30F052 /* HOKRoute.m */,
+				00601E6EE690467907D19E0C /* HOKRouting.h */,
+				F69EFF024DA5F882C07D54D7 /* HOKRouting.m */,
+				C2E52A08A63987DBA9905F48 /* HOKSwizzling.h */,
+				322402F9F7C46174C5D0B869 /* HOKSwizzling.m */,
+				3D9AB17D6FF90731A1D43E15 /* HOKURL.h */,
+				572FFC9FF81CA79C263D12A7 /* HOKURL.m */,
+				51F983D10CE3EF69FCFD2699 /* HOKUtils.h */,
+				C77D899FD92BACE513DA187E /* HOKUtils.m */,
+				3A91AB27E21CA6B48DF84D25 /* HOKVersionChecker.h */,
+				328AA08C9F2BA035345EFD7B /* HOKVersionChecker.m */,
+				E153D9FA3CFF2F054B7E0A3E /* Hoko.h */,
+				0C46A6F1873514E300D5546F /* Hoko.m */,
+				3130DC3AC322FEE438C45766 /* Hoko+Macros.h */,
+				09EC29A08B11CCA0440545BA /* Hoko+Private.h */,
+				BD89D5910E1F27E6CE9544D9 /* Support Files */,
 			);
 			path = Hoko;
 			sourceTree = "<group>";
 		};
-		52F4F98766916E4B81FC5C1C /* iOS */ = {
+		6FC8846B6A85A7267E92A048 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB722298F0C9E56DD45DFD26 /* Foundation.framework */,
-				34BAE0E6127ACAF1ABF92160 /* SystemConfiguration.framework */,
-				D682DF90E6B61D8A1F2F5E38 /* UIKit.framework */,
+				AB1D1FD7B4B6516C94312E10 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6637003C8F8A77B32B6E954E /* Pods */ = {
+		8F9383E5D77DD5BFC0C6C489 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2544160CBE874BDB5BFC9EB8 /* Pods-acknowledgements.markdown */,
-				3EC17BEA723D64BF23DCB873 /* Pods-acknowledgements.plist */,
-				8646A0033755B07928BDED02 /* Pods-dummy.m */,
-				C28E265B35623D7528F5C822 /* Pods-environment.h */,
-				E71DFBCE4D84CF0FC2B1A47D /* Pods-resources.sh */,
-				2DAFE7308DAF2CFB50922A37 /* Pods.debug.xcconfig */,
-				85196BC4CBF3F638AAEBA12D /* Pods.release.xcconfig */,
+				8F05F60065B4A1CA2A28C863 /* Pods-acknowledgements.markdown */,
+				D8D336B1264514A405FBE9E3 /* Pods-acknowledgements.plist */,
+				E3B312A31E4D16462794EB78 /* Pods-dummy.m */,
+				233F34E3430A0517E0DB110D /* Pods-environment.h */,
+				7C1EFAFA04C387AB411DD03F /* Pods-resources.sh */,
+				8DFCD5528110B729F79D7573 /* Pods.debug.xcconfig */,
+				6CCEBFA862C6ACEDBB1AA5B0 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		6DA30E036F5B029ADEC9A1F5 /* Support Files */ = {
+		953F8EED965039C1B7CC29E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				973594C683DD70159C357065 /* Pods-Hoko.xcconfig */,
-				572140CAE84997D896141E42 /* Pods-Hoko-Private.xcconfig */,
-				3FBB50CF2B732114E4BD19EF /* Pods-Hoko-dummy.m */,
-				E1A306E1EFA97DDE7E11F755 /* Pods-Hoko-prefix.pch */,
+				4AD4A20A8097E3480D067EEF /* Hoko */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A341A26E80D90A01434E2654 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F9383E5D77DD5BFC0C6C489 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB1D1FD7B4B6516C94312E10 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA6A317C1BA3FD96A106B988 /* Foundation.framework */,
+				CD37A0DFE4CC530330E713D0 /* SystemConfiguration.framework */,
+				01FCB1256743BD8DDC404791 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD89D5910E1F27E6CE9544D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4884D882DC90D7682216DE /* Pods-Hoko.xcconfig */,
+				032067027275BA995C936576 /* Pods-Hoko-Private.xcconfig */,
+				2BF31B1D584CAAFA76649570 /* Pods-Hoko-dummy.m */,
+				2D0B0991E6BD5D318AA8826F /* Pods-Hoko-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Hoko";
 			sourceTree = "<group>";
 		};
-		8C1BD3FAA18F353AF9A9679D /* Products */ = {
+		EF71AC738F520F1D71F332C9 = {
 			isa = PBXGroup;
 			children = (
-				1D8FEDE058CA5D649CDCE7B4 /* libPods.a */,
-				7E0171615BCFC37496B16AC1 /* libPods-Hoko.a */,
+				0AA90C619E80B4DF53A2EACD /* Podfile */,
+				6FC8846B6A85A7267E92A048 /* Frameworks */,
+				953F8EED965039C1B7CC29E1 /* Pods */,
+				0E516CDE6B07BD2545A54042 /* Products */,
+				A341A26E80D90A01434E2654 /* Targets Support Files */,
 			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CE44190BC683BF54C1E055BD /* Headers */ = {
+		6D094EC01A9E3F4A9352D676 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAAB39876DED723EEF18638 /* HOKApp.h in Headers */,
-				62D92B257ECBC4C025F4A6EF /* HOKDeeplink+Private.h in Headers */,
-				3F91CF29FDCA32DF5F2B7FBB /* HOKDeeplink.h in Headers */,
-				D1E44264B15717D8676D818E /* HOKDeeplinking+Private.h in Headers */,
-				50217886275959DEDE05AD45 /* HOKDeeplinking.h in Headers */,
-				92797E9C347A8739479583D1 /* HOKDeferredDeeplinking.h in Headers */,
-				18DE048A1BE1C92E86CD64F6 /* HOKDevice.h in Headers */,
-				38464B4F89D960090739A26D /* HOKError.h in Headers */,
-				15354B08F5D6BC7A132AA6A8 /* HOKGZip.h in Headers */,
-				C9E1268A2D583FB5F92944D3 /* HOKHandlerBlockWrapper.h in Headers */,
-				8ECC85BB7F66A656DACF92F7 /* HOKHandling.h in Headers */,
-				2AF172FF01F689A514CDBB50 /* HOKLinkGenerator.h in Headers */,
-				5ED61974F4C8D8EFAE15B816 /* HOKLogger.h in Headers */,
-				248D782039497AE66510EBD8 /* HOKNavigation.h in Headers */,
-				FC9F4E40ED1B21093969BC80 /* HOKNetworkOperation.h in Headers */,
-				ADB6BF75BEF312E112F081DF /* HOKNetworkOperationQueue+Private.h in Headers */,
-				A7B494BE116C29BD5D1FD5C9 /* HOKNetworkOperationQueue.h in Headers */,
-				3FDA788A0F3BFF5C89C9F4CF /* HOKNetworking.h in Headers */,
-				5AA861DD2DB979DBDB29C246 /* HOKNotificationObserver.h in Headers */,
-				CC87E70AE4E8DC17B72CC17C /* HOKObjectObserver.h in Headers */,
-				29E5F8B64E7809C71FA2BDA6 /* HOKObserver.h in Headers */,
-				8E75E18AAA0694202631CB83 /* HOKResolver.h in Headers */,
-				D4AF8E27C060CCAA7D9EE96B /* HOKRoute.h in Headers */,
-				B9DA4225970FEAC19A754DA6 /* HOKRouting.h in Headers */,
-				C4B7658506D2D22539DF5706 /* HOKSwizzling.h in Headers */,
-				6185D56FD36C4F62415424EA /* HOKURL.h in Headers */,
-				7D952324548EEF2A9FBF24AB /* HOKUtils.h in Headers */,
-				378BEB4F4ADC72E57BB18AD8 /* HOKVersionChecker.h in Headers */,
-				95C099F1D7E2FA287E6A0752 /* Hoko+Nullability.h in Headers */,
-				4A2150266A33626084F5CE91 /* Hoko+Private.h in Headers */,
-				0900818DBFC2DD6341EAB583 /* Hoko.h in Headers */,
+				C30F23C95D902F0C68AFA37B /* HOKApp.h in Headers */,
+				F96BB775B111431F06FC7334 /* HOKDeeplink+Private.h in Headers */,
+				A53B82059903F1256FC8FF33 /* HOKDeeplink.h in Headers */,
+				A0F6250860F1487A4D895B7F /* HOKDeeplinking+Private.h in Headers */,
+				196FC34EFE5844DEC06E51AA /* HOKDeeplinking.h in Headers */,
+				740566D9D0CEE86C628F596A /* HOKDeferredDeeplinking.h in Headers */,
+				E39103B5023CC201A3D67B54 /* HOKDevice.h in Headers */,
+				7DB1C0749F8EB79D5CE1DEBF /* HOKError.h in Headers */,
+				E33BEA22DD217F90CDD76679 /* HOKGZip.h in Headers */,
+				C4F8A63D638F657A937CC8C2 /* HOKHandlerBlockWrapper.h in Headers */,
+				DC40FE22AC4BBACB5FA73523 /* HOKHandling.h in Headers */,
+				5B8BEAAAC56544B28F63FD95 /* HOKLinkGenerator.h in Headers */,
+				22001B3EAABA5691F43D426F /* HOKLogger.h in Headers */,
+				27F814927749722CE1630944 /* HOKNavigation.h in Headers */,
+				802DB2FCD905E5B5471109FF /* HOKNetworkOperation.h in Headers */,
+				2A6F08F2F18440666F15B24F /* HOKNetworkOperationQueue+Private.h in Headers */,
+				3CD3A8CDE7ED0E9076CD841D /* HOKNetworkOperationQueue.h in Headers */,
+				B8B47DA6B247567A50CB3F20 /* HOKNetworking.h in Headers */,
+				8C4E3C7EFE51D16C2500CD60 /* HOKNotificationObserver.h in Headers */,
+				5268DBA19CA37E4C361C3723 /* HOKObjectObserver.h in Headers */,
+				2E61FB799B5613B3FAAA3EC6 /* HOKObserver.h in Headers */,
+				97B6303CA4AEFE339F4B6C1D /* HOKResolver.h in Headers */,
+				90359F19B4631480E7450531 /* HOKRoute.h in Headers */,
+				1320BCE43C0DE738964273A1 /* HOKRouting.h in Headers */,
+				5C297758B9FBC5CD797E6260 /* HOKSwizzling.h in Headers */,
+				4C8DAA6A4558F67D645742DF /* HOKURL.h in Headers */,
+				FFFEAD3954C5D30ED73F0444 /* HOKUtils.h in Headers */,
+				F2106499B80A194B96AB0415 /* HOKVersionChecker.h in Headers */,
+				EFF892F54CF2F168A87AEFFA /* Hoko+Macros.h in Headers */,
+				B901E7DECBCCBDD46D1C1B32 /* Hoko+Private.h in Headers */,
+				A769DBF0D3542EA35DCE7F2D /* Hoko.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14DAA259D87591474C0DDBE2 /* Pods-Hoko */ = {
+		821EA3442FB9D76AD6E5FE14 /* Pods-Hoko */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D1912FD37C1B86171B7C128 /* Build configuration list for PBXNativeTarget "Pods-Hoko" */;
+			buildConfigurationList = 73F6EDEDBA93EC3D6B720F4C /* Build configuration list for PBXNativeTarget "Pods-Hoko" */;
 			buildPhases = (
-				F51CAFAB7F15B82F2BFBFAB4 /* Sources */,
-				FC540D680CCEC1AFEC46B2E9 /* Frameworks */,
-				CE44190BC683BF54C1E055BD /* Headers */,
+				F2974B45CE6B08F09B15C5A1 /* Sources */,
+				802D78C01745318A5D548E6C /* Frameworks */,
+				6D094EC01A9E3F4A9352D676 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -385,142 +385,144 @@
 			);
 			name = "Pods-Hoko";
 			productName = "Pods-Hoko";
-			productReference = 7E0171615BCFC37496B16AC1 /* libPods-Hoko.a */;
+			productReference = 340BD342B5B8FEA934493379 /* libPods-Hoko.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5155549DF24682EED0E475CC /* Pods */ = {
+		B32A14025C077D246B66D8AE /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AF47ACAC99AAA8B91D63CCD /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 17B2C95D2F98952F173D098E /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				6A355984D4941FAAF21392E1 /* Sources */,
-				1743A5E20B2291AB38389890 /* Frameworks */,
+				8C5A28D85352E96D4D1FE03F /* Sources */,
+				0059CA0663D56C5C7DB4E4B3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B0B574BDCCCBA9C87270DF7B /* PBXTargetDependency */,
+				967D4F82CFCF7D09FAEB3E06 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 1D8FEDE058CA5D649CDCE7B4 /* libPods.a */;
+			productReference = 5A464A3B2A61E9F1BF7E5F2A /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DE260A6AA233A2CE89CE6525 /* Project object */ = {
+		37204BDBD7E266D3D4736A4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 6D15B390182EA987F14E7682 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 495964CDD27F1E3BF4F1C026 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1C436E93F0DCE5CAE8C7F9E3;
-			productRefGroup = 8C1BD3FAA18F353AF9A9679D /* Products */;
+			mainGroup = EF71AC738F520F1D71F332C9;
+			productRefGroup = 0E516CDE6B07BD2545A54042 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5155549DF24682EED0E475CC /* Pods */,
-				14DAA259D87591474C0DDBE2 /* Pods-Hoko */,
+				B32A14025C077D246B66D8AE /* Pods */,
+				821EA3442FB9D76AD6E5FE14 /* Pods-Hoko */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6A355984D4941FAAF21392E1 /* Sources */ = {
+		8C5A28D85352E96D4D1FE03F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12190D05706F4466BF0E1C7 /* Pods-dummy.m in Sources */,
+				C22993C5F72824583C4B4EB0 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F51CAFAB7F15B82F2BFBFAB4 /* Sources */ = {
+		F2974B45CE6B08F09B15C5A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7100A4291E3B9E69A2BC32BF /* HOKApp.m in Sources */,
-				8C120838555BDA5D4FB22BD6 /* HOKDeeplink.m in Sources */,
-				845EF74CE73676FB2F5AF9D3 /* HOKDeeplinking.m in Sources */,
-				BA01AACAADBA9034B5B34A83 /* HOKDeferredDeeplinking.m in Sources */,
-				35DDEC8ED0F7FA7D2ABAC465 /* HOKDevice.m in Sources */,
-				1885E37A97DCADC59C43AF65 /* HOKError.m in Sources */,
-				F01A3FAD21CB29798B891159 /* HOKGZip.m in Sources */,
-				47F1C0A90CF4A724CA70640F /* HOKHandlerBlockWrapper.m in Sources */,
-				96DADB62DE4485F121D4DC51 /* HOKHandling.m in Sources */,
-				528F49E91E38A6782AAC71DC /* HOKLinkGenerator.m in Sources */,
-				DD49FCB10150B86A635CF05F /* HOKLogger.m in Sources */,
-				88AFAF649079C7DFE5905384 /* HOKNavigation.m in Sources */,
-				05304AC1A43BF676FE71CC31 /* HOKNetworkOperation.m in Sources */,
-				AE3AEFD18F8A9C7B81691579 /* HOKNetworkOperationQueue.m in Sources */,
-				E7E9DA2304A911BACD16D99B /* HOKNetworking.m in Sources */,
-				CC546B510F193AC18C5AA490 /* HOKNotificationObserver.m in Sources */,
-				6F8C0275AFD0D96B17DD5AF7 /* HOKObjectObserver.m in Sources */,
-				62B9F47545825BA1DB58BCDF /* HOKObserver.m in Sources */,
-				13E81D800D3F1182F750F62F /* HOKResolver.m in Sources */,
-				E161E3C03F4780828DABDAB9 /* HOKRoute.m in Sources */,
-				B2075B72E5D458A74432EB37 /* HOKRouting.m in Sources */,
-				318457F80E16F1D705DB430F /* HOKSwizzling.m in Sources */,
-				416677B2F6C7A0C903F8BB46 /* HOKURL.m in Sources */,
-				E1906612CA5970B3117F1FAF /* HOKUtils.m in Sources */,
-				3327F366E08511EFD08BA606 /* HOKVersionChecker.m in Sources */,
-				739D27B85EAB87A6F7DE57BE /* Hoko.m in Sources */,
-				423F02E65D2C615A2C1008CD /* Pods-Hoko-dummy.m in Sources */,
+				F1A8DFC43C6DC28A6633A3F4 /* HOKApp.m in Sources */,
+				111BDB0675220E0E7B101B58 /* HOKDeeplink.m in Sources */,
+				6B7738D93FC7D0C07B21A26D /* HOKDeeplinking.m in Sources */,
+				9C1F09131608A5B577640A79 /* HOKDeferredDeeplinking.m in Sources */,
+				73166A62C3B66D0A90369D2D /* HOKDevice.m in Sources */,
+				09E99B4E500A427E78D564A0 /* HOKError.m in Sources */,
+				692C6D55D3E4A26003C2C26C /* HOKGZip.m in Sources */,
+				A968FD63B6FF630B1A35ABF7 /* HOKHandlerBlockWrapper.m in Sources */,
+				E5F06FD0ADD5A6B95B4FDD63 /* HOKHandling.m in Sources */,
+				1EBBDA2C8A66C965BC4D0927 /* HOKLinkGenerator.m in Sources */,
+				ECDD44FA14BD4D5C875A2811 /* HOKLogger.m in Sources */,
+				BD6C47A26CC8CCFFAD5DDA15 /* HOKNavigation.m in Sources */,
+				8828E36EDFD7C2FA936DFCDA /* HOKNetworkOperation.m in Sources */,
+				CC525BE700FC93D566C2B0CB /* HOKNetworkOperationQueue.m in Sources */,
+				79E944C008F28A3AFDF747AC /* HOKNetworking.m in Sources */,
+				3A86985640CDDBA0A04FD8F9 /* HOKNotificationObserver.m in Sources */,
+				181D5BEA2D6F0233B6B25137 /* HOKObjectObserver.m in Sources */,
+				65FE3B33622DBD253F6BC789 /* HOKObserver.m in Sources */,
+				DF19FE685B8CE87753FFC76D /* HOKResolver.m in Sources */,
+				530944E07F038CF47AA38044 /* HOKRoute.m in Sources */,
+				95D4D5951E15AF24B180B002 /* HOKRouting.m in Sources */,
+				C6FC0631450102F52DD5FE8A /* HOKSwizzling.m in Sources */,
+				D3B9C2223DAF3238F7A9A706 /* HOKURL.m in Sources */,
+				5D98CCCE6E0138C3E9AFDDC3 /* HOKUtils.m in Sources */,
+				E82EDFD1E855431289DA7AD9 /* HOKVersionChecker.m in Sources */,
+				6B454B533B79772B75CD988C /* Hoko.m in Sources */,
+				F81949363DD523ED0AC5FCF3 /* Pods-Hoko-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B0B574BDCCCBA9C87270DF7B /* PBXTargetDependency */ = {
+		967D4F82CFCF7D09FAEB3E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Hoko";
-			target = 14DAA259D87591474C0DDBE2 /* Pods-Hoko */;
-			targetProxy = 85B49CDC3DF9FBB60EC02B1D /* PBXContainerItemProxy */;
+			target = 821EA3442FB9D76AD6E5FE14 /* Pods-Hoko */;
+			targetProxy = B1ED22D58DFFA5D949F9E108 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A484E22B052E6C3BC47BDA4 /* Debug */ = {
+		036267A51F49DB77175C7B4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 572140CAE84997D896141E42 /* Pods-Hoko-Private.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Hoko/Pods-Hoko-prefix.pch";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		31B65C6F5452D4FCA0D67536 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 572140CAE84997D896141E42 /* Pods-Hoko-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Hoko/Pods-Hoko-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		37D292A2ECB3148A04434C0B /* Debug */ = {
+		159819C1E0948C53E6AF9E55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DAFE7308DAF2CFB50922A37 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 8DFCD5528110B729F79D7573 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -534,23 +536,7 @@
 			};
 			name = Debug;
 		};
-		8910FCF81F30D60FC1FEDBB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85196BC4CBF3F638AAEBA12D /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B19AF66D33178D97AEB8266D /* Debug */ = {
+		21EBEB111F427592CF2673D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,71 +575,85 @@
 			};
 			name = Debug;
 		};
-		D4896E495529228E68079797 /* Release */ = {
+		84F9F2DD46F57BE24C5D1AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032067027275BA995C936576 /* Pods-Hoko-Private.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Hoko/Pods-Hoko-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95ACB15793A0C0EC47D3B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032067027275BA995C936576 /* Pods-Hoko-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Hoko/Pods-Hoko-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0540B918E885BC9AC73A396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCEBFA862C6ACEDBB1AA5B0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D15B390182EA987F14E7682 /* Build configuration list for PBXProject "Pods" */ = {
+		17B2C95D2F98952F173D098E /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B19AF66D33178D97AEB8266D /* Debug */,
-				D4896E495529228E68079797 /* Release */,
+				159819C1E0948C53E6AF9E55 /* Debug */,
+				E0540B918E885BC9AC73A396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D1912FD37C1B86171B7C128 /* Build configuration list for PBXNativeTarget "Pods-Hoko" */ = {
+		495964CDD27F1E3BF4F1C026 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A484E22B052E6C3BC47BDA4 /* Debug */,
-				31B65C6F5452D4FCA0D67536 /* Release */,
+				21EBEB111F427592CF2673D5 /* Debug */,
+				036267A51F49DB77175C7B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AF47ACAC99AAA8B91D63CCD /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		73F6EDEDBA93EC3D6B720F4C /* Build configuration list for PBXNativeTarget "Pods-Hoko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37D292A2ECB3148A04434C0B /* Debug */,
-				8910FCF81F30D60FC1FEDBB5 /* Release */,
+				95ACB15793A0C0EC47D3B5FF /* Debug */,
+				84F9F2DD46F57BE24C5D1AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DE260A6AA233A2CE89CE6525 /* Project object */;
+	rootObject = 37204BDBD7E266D3D4736A4D /* Project object */;
 }

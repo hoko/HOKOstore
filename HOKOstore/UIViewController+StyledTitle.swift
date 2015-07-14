@@ -9,19 +9,19 @@
 import UIKit
 
 extension UIViewController {
-    func setStyledTitle(title: String) {
-        var label: UILabel
-        if let titleLabel = self.navigationItem.titleView as? UILabel {
-            label = titleLabel
-        } else {
-            label = UILabel()
-        }
-        
-        let font = UIFont(name: "Novecentosanswide-DemiBold", size: 14)
-        label.font = font
-        label.textColor = UIColor.blackColor()
-        label.attributedText = NSAttributedString(string: title)
-        label.sizeToFit()
-        self.navigationItem.titleView = label
+  func setStyledTitle(title: String) {
+    var label: UILabel
+    if let titleLabel = self.navigationItem.titleView as? UILabel {
+      label = titleLabel
+    } else {
+      label = UILabel()
     }
+    
+    let font = UIFont(name: "Novecentosanswide-DemiBold", size: 14)
+    label.font = font
+    label.textColor = UIColor.blackColor()
+    label.attributedText = NSAttributedString(string: title)
+    label.sizeToFit()
+    self.navigationItem.titleView = label
+  }
 }

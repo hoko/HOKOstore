@@ -11,11 +11,11 @@ import Foundation
 
 //The struct that represents a Coupon on HOKOstore
 struct HKSCoupon {
-    let name: String
-    let discount: Float
-    
-    init(name: String, discount: Float) {
-        self.name = name
-        self.discount = discount
-    }
+  let name: String
+  let discount: Float
+  
+  init(name: String, discount: Float) {
+    self.name = name
+    self.discount = discount
+  }
 }

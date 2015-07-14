@@ -46,6 +46,8 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
           
           //____ This is the core part of this Use Case app ____
           //
+          //>> http://black.hoko.link/save20 << this is the link we're using for this example
+          //
           //We'll check if the deeplink's metada dictionary contains the key 'coupon' which is its code (e.g. save20)
           //and the key 'value' which is its discount value (e.g. $20).
           //

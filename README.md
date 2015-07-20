@@ -7,7 +7,7 @@ In order to Build and Run this project you will need to have the latest Xcode 7 
 # Creating a Smart link with coupons (metadata)
 The process to create a new smart link with a coupon is fairly simple. **Click** on the following image to watch a clip where we will show you how to do that.
 
-<p align="center" >
+<p align="center">
 <a href="https://youtu.be/fpesz5VhrS0" target="_blank"><img src="/resources/youtube-thumbnail.png"></a>
 </p>
 

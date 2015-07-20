@@ -10,4 +10,7 @@
    <FileRef
       location = "group:HOKOStore.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:HOKOstore.xcodeproj">
+   </FileRef>
 </Workspace>

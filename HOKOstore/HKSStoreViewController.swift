@@ -33,7 +33,7 @@ class HKSStoreViewController: UIViewController {
     super.didReceiveMemoryWarning()
   }
   
-  // MARK: segue method
+  // MARK: Prepare for Segue
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     let productViewController = segue.destinationViewController as! HKSStoreProductViewController
     productViewController.product = productsArray[(sender as! NSIndexPath).row]
@@ -42,6 +42,7 @@ class HKSStoreViewController: UIViewController {
 }
 
 
+// MARK: UICollectionViewDataSource methods
 extension HKSStoreViewController: UICollectionViewDataSource {
   
   func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -73,6 +74,7 @@ extension HKSStoreViewController: UICollectionViewDataSource {
 }
 
 
+// MARK: UICollectionViewDelegate methods
 extension HKSStoreViewController: UICollectionViewDelegate {
   
   func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {

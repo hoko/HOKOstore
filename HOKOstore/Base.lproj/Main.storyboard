@@ -20,7 +20,7 @@
         <!--HOKOStore-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HKSStoreViewController" customModule="HOKOStore_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HKSStoreViewController" customModule="HOKOStore" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -39,7 +39,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="productCellIdentifier" id="3i3-Rn-3IO" customClass="HKSProductFeedCollectionCellView" customModule="HOKOStore_temp_caseinsensitive_rename" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="productCellIdentifier" id="3i3-Rn-3IO" customClass="HKSProductFeedCollectionCellView" customModule="HOKOStore" customModuleProvider="target">
                                         <rect key="frame" x="140" y="64" width="320" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -92,7 +92,7 @@
                                                     <fontDescription key="fontDescription" name="BodoniXT" family="BodoniXT" pointSize="36"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-rq-uAb" customClass="HKSDiscountBadgeView" customModule="HOKOStore_temp_caseinsensitive_rename" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-rq-uAb" customClass="HKSDiscountBadgeView" customModule="HOKOStore" customModuleProvider="target">
                                                     <rect key="frame" x="262" y="8" width="50" height="50"/>
                                                     <color key="backgroundColor" red="0.92156862745098034" green="0.12941176470588234" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
@@ -173,7 +173,7 @@
         <!--Store Product View Controller-->
         <scene sceneID="dBa-Jp-rKW">
             <objects>
-                <viewController storyboardIdentifier="Store Product View Controller" id="bA9-Mh-m9l" customClass="HKSStoreProductViewController" customModule="HOKOStore_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Store Product View Controller" id="bA9-Mh-m9l" customClass="HKSStoreProductViewController" customModule="HOKOStore" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WLK-cb-IBn"/>
                         <viewControllerLayoutGuide type="bottom" id="ZO1-xb-GgS"/>
@@ -236,7 +236,7 @@
                                     <rect key="frame" x="30" y="296" width="340" height="0.0"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOStore_temp_caseinsensitive_rename" customModuleProvider="target">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-nQ-qw5" customClass="HKSProductDiscountLabel" customModule="HOKOStore" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="241" width="600" height="33"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                 <constraints>

@@ -46,18 +46,30 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
           
           //____ This is the core part of this Use Case app ____
           //
-          //>> http://black.hoko.link/save20 << this is the link we're using for this example
+          // >> http://black.hoko.link/save20 << this is the main link we are using for this example.
           //
-          //We will check if the deeplink's metada dictionary contains the key 'coupon' which is its code (e.g. save20)
-          //and the key 'value' which is its discount value (e.g. $20).
+          //The example link contains the following metadata:
+          //  {
+          //    "coupon" = "save20"
+          //    "value"  = "20"
+          //  }
+          //
+          //We will check if the deeplink's metada dictionary contains the key 'coupon' which is its code
+          //and the key 'value' which is its discount value.
           //
           //Keep in mind that this keys are not guaranteed to be in every smartlink because they're optional,
-          //so make sure that you still present the Product's View Controller even if there is no coupon
+          //so make sure that you still present the Product's View Controller even if there is no coupon.
           if let couponCode = deeplink.metadata?["coupon"] as? String, discount = Float(deeplink.metadata?["value"] as! String) {
             let coupon = HKSCoupon(name: couponCode, discount: discount)
             
-            //we will save on the app's NSUserDefaults that the user already has redeemed a coupon for product X
-            //which will be used later to show a discount badge on that product's cell
+            //We will save on the app's NSUserDefaults that the user already has redeemed a coupon for product X
+            //which will be used later to show a discount badge on that product's cell.
+            //
+            //
+            //___ DEVELOPER NOTE ___
+            //Instead of saving this coupon data on your app's NSUserDefaults, you can save it on your
+            //application's backend, making it more secure. This enables you to limit the amount of times each user
+            //can redeem your coupons by attaching the redeemed coupon data along with your user ID.
             NSUserDefaults.saveCoupon(coupon, forProduct: String(productID))
             
             productViewController.newlyRedeemedCoupon = coupon

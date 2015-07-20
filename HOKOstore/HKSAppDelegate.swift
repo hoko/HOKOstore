@@ -50,8 +50,8 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
           //
           //The example link contains the following metadata:
           //  {
-          //    "coupon" = "save20"
-          //    "value"  = "20"
+          //    "coupon": "save20",
+          //    "value": "20"
           //  }
           //
           //We will check if the deeplink's metada dictionary contains the key 'coupon' which is its code

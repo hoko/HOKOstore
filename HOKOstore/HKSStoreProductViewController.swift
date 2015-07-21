@@ -44,7 +44,7 @@ class HKSStoreProductViewController: UIViewController {
   
   @IBAction func buyProduct(sender: AnyObject) {
     self.presentViewController(UIAlertController.alertWithTitle("Thank you",
-      message: "An e-pidgeon will arrive shortly at your destination with your shiny new product.",
+      message: "An e-pigeon will arrive shortly at your destination with your shiny new product.",
       buttonTitle: "Alright!"),
       animated: true, completion: nil)
   }

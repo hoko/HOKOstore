@@ -63,7 +63,7 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
             let coupon = HKSCoupon(name: couponCode, discount: discount)
             
             // We will save on the app's NSUserDefaults that the user already has redeemed a coupon for product X
-            // which will be used later to show a discount badge on that product's cell.
+            // which will be used later to show a discount badge on that product's NSTableView cell.
             //
             //
             // ___ DEVELOPER NOTE ___

@@ -25,15 +25,18 @@ class HKSAppDelegate: UIResponder, UIApplicationDelegate {
     Hoko.setupWithToken("9fad9a7b52e539d000c8f1c73a808afcf4ae4851")
     Hoko.setVerbose(true) //we set 'verbose' to 'true' in order to the SDK print messages on the console
     
+    
     // addHandlerBlock will be called every time a deeplink is opened
     // we're just printing a message to acknowledge it.
     Hoko.deeplinking().addHandlerBlock { deeplink in
       print("A wild deep link was caught!\n\n")
     }
     
+    
     // This use case app is used to "sell" products, therefore the route we will use
     // is "product/:product_id"
     Hoko.deeplinking().mapRoute("product/:product_id", toTarget: { deeplink in
+      
       // When a deeplink enteres this route, we know for sure that the routeParameters will contain some data
       // and that it has the key 'product_id'.
       // But, for type safety, we will use optional checking.

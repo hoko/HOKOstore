@@ -29,10 +29,6 @@ class HKSStoreViewController: UIViewController {
     productsCollectionView.reloadData()
   }
   
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-  }
-  
   // MARK: Prepare for Segue
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     let productViewController = segue.destinationViewController as! HKSStoreProductViewController
@@ -59,9 +55,9 @@ extension HKSStoreViewController: UICollectionViewDataSource {
     let product = productsArray[indexPath.row]
     viewCell.updateCellWithProduct(product)
     
-    //Here we check if there is an entry on the app's NSUserDefaults with a coupon for
-    //the current product. If there is, we show a badge showing the discount percentage.
-    //This is a simple and straightfoward example of giving feedback to your user.
+    // Here we check if there is an entry on the app's NSUserDefaults with a coupon for
+    // the current product. If there is, we show a badge showing the discount percentage.
+    // This is a simple and straightfoward example of giving feedback to your user.
     if let coupon = NSUserDefaults.getCouponForProduct("\(product.id)") {
       viewCell.discountBadge.hidden = false
       viewCell.discountBadge.setDiscountPercentage(Int(coupon.discount * 100 / product.price))

@@ -60,7 +60,7 @@ extension HKSStoreViewController: UICollectionViewDataSource {
     // This is a simple and straightfoward example of giving feedback to your user.
     if let coupon = NSUserDefaults.getCouponForProduct("\(product.id)") {
       viewCell.discountBadge.hidden = false
-      viewCell.discountBadge.setDiscountPercentage(Int(coupon.discount * 100 / product.price))
+      viewCell.discountBadge.setDiscountPercentage(Int(coupon.discount * 100 / product.price + 0.5))
     } else {
       viewCell.discountBadge.hidden = true
     }

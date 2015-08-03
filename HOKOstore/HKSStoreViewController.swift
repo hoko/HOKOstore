@@ -16,9 +16,7 @@ class HKSStoreViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    productsArray.append(HKSProduct.productWithId(0)!)
-    productsArray.append(HKSProduct.productWithId(1)!)
-    productsArray.append(HKSProduct.productWithId(2)!)
+    productsArray = (0...2).map { HKSProduct.productWithId($0)! }
     
     self.setStyledTitle(self.navigationItem.title!)
   }
